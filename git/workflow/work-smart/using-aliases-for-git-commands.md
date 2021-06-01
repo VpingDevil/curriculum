@@ -6,6 +6,15 @@ links:
   - >-
     [Git Aliases Official
     Documentation](http://git-scm.com/book/en/v2/Git-Basics-Git-Aliases){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Using aliases for git commands

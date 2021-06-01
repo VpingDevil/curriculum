@@ -4,6 +4,15 @@ type: normal
 category: must-know
 tags:
   - introduction
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # What Does `PATH` Do?
@@ -53,12 +62,13 @@ echo $PATH
 ```
 
 In what order will the shell visit the folders in `PATH` to find a valid executable for `somecommand`?
-
+```bash
 ???
 
 ???
 
 ???
+```
 
 - /usr/bin
 - /bin

@@ -6,9 +6,19 @@ links:
   - >-
     [HTML <bdo>
     Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/bdo){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
-# The `<bdo>` Element
+# The bdo Element
 
 
 ---
@@ -94,7 +104,9 @@ Write the code to display the word "backwards" backwards.
 
 Which HTML element is used to change the direction of specific sections of text within a multi-language document - for such languages as Arabic and Hebrew?
 
+```html
 ???
+```
 
 - `<bdo>`
 - `<bdio>`

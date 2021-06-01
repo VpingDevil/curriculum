@@ -4,10 +4,17 @@ type: normal
 category: must-know
 links:
   - >-
-    [developer.mozilla.org]([MDN docs on
-    visibleState](https://developer.mozilla.org/en-US/docs/Web/API/Document/visibilityState0{website}){website}
+    [Page Visibility API](https://developer.mozilla.org/en-US/docs/Web/API/Page_Visibility_API){website}
   - >-
-    [www.html5rocks.com](http://www.html5rocks.com/en/tutorials/pagevisibility/intro/){website}
+    [Using the PageVisibility API](http://www.html5rocks.com/en/tutorials/pagevisibility/intro/){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Page Visibility API
@@ -52,7 +59,9 @@ function(){
 
 ## Practice
 
-Which of the following is not a visibleState property value? ???
+Which of the following is not a `visibleState` property value? 
+
+???
 
 - rawview
 - hidden
@@ -68,7 +77,10 @@ Which of the following is not a visibleState property value? ???
 Complete the following JS code snippet to add an event listener for a visibility change:
 
 ```javascript
-document.???("???", function() {
+document.???(
+  "???",
+  function() {}
+);
 ```
 
 - `addEventListener`
@@ -77,3 +89,4 @@ document.???("???", function() {
 - `newListener`
 - `change`
 - `detectvisibility`
+ 

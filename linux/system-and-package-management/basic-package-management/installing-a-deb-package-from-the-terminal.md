@@ -11,6 +11,16 @@ tags:
   - install
   - remove
   - terminal
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Installing a `.deb` package from the terminal

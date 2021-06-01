@@ -1,18 +1,26 @@
-﻿---
+---
 author: Stefan-Stojanovic
-
 type: normal
-
-category: how to
-
+category: how-to
 links:
   - '[TO_DOLLARS](https://support.google.com/docs/answer/3094241){documentation}'
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # TO_DOLLARS
 
+
 ---
+
 ## Content
 
 The `=TO_DOLLARS` function is used to convert a number to a dollar value.
@@ -31,7 +39,9 @@ This function is mostly used when you want to convert a number value to a dollar
 
 > 💡 You can achieve the same effect by selecting a cell and pressing the "Format as currency" button on the formula bar.
 
+
 ---
+
 ## Practice
 
 Finish the code below to convert the number 9.99 to a dollar value.
@@ -47,13 +57,17 @@ Finish the code below to convert the number 9.99 to a dollar value.
 - ]
 - TODOLLAR[
 
+
 ---
+
 ## Revision
 
 Which function is used to convert a number to a dollar value?
 
-???
+```plain-text
+=???()
+```
 
-- =TO_DOLLARS()
-- =TO_DOLLAR()
-- =CONVERT_TO_DOLLARS()
+- TO_DOLLARS
+- TO_DOLLAR
+- CONVERT_TO_DOLLARS

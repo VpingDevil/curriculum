@@ -1,11 +1,21 @@
 ---
 author: catalin
 type: normal
-category: how to
+category: how-to
 tags:
   - workout
 links:
   - '[nodejs.org](https://nodejs.org/api/repl.html){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Custom Node REPL Server
@@ -62,16 +72,16 @@ replServer.defineCommand(keyword, cmd)
 Listen to exit event of a custom REPL:
 
 ```javascript
-replServer.???(???, function() {
+replServer.???('???', function() {
   process.exit()
 });
 
 ```
 
 - on
-- 'exit'
-- 'close'
-- 'end'
+- exit
+- close
+- end
 
 
 ---
@@ -81,13 +91,13 @@ replServer.???(???, function() {
 Listen to exit event of a custom REPL:
 
 ```javascript
-replServer.???(???, function() {
+replServer.???('???', function() {
   process.exit()
 });
 
 ```
 
 - on
-- 'exit'
-- 'close'
-- 'end'
+- exit
+- close
+- end

@@ -12,6 +12,15 @@ links:
   - >-
     [The IN
     Keyword](https://en.wikibooks.org/wiki/Structured_Query_Language/Quantified_Comparison#IN){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # LIKE
@@ -78,8 +87,6 @@ Write a query that will retrieve all the Toy Story movies from the database, usi
 SELECT * FROM movies
 WHERE name ??? 'Toy Story???';
 ```
-
-???
 
 - LIKE
 - %

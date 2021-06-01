@@ -2,6 +2,14 @@
 author: Stefan-Stojanovic
 type: normal
 category: must-know
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Comments
@@ -49,10 +57,10 @@ In regards to HTML comments, which of the following is true?:
 
 ???
 
-- The code `<!--` starts a comment. The code `-->` ends a comment.
-- The comment is placed within `<!- xxx ->`.
-- The comment is placed within `*/ xxx /*`.
-- The comment is placed within `/* xxx */`.
+- `The code <!-- starts a comment. The code --> ends a comment.`
+- `The comment is placed within <!- xxx ->.`
+- `The comment is placed within */ xxx /*.`
+- `The comment is placed within /* xxx */.`
 - HTML does not support comments.
 
 

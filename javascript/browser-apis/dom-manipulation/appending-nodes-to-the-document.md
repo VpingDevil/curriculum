@@ -9,6 +9,15 @@ links:
   - >-
     [Youtube - DOM Nodes - Beau teaches
     JavaScript](https://www.youtube.com/watch?v=BWVoPxob5DU){video}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Appending Nodes to Document

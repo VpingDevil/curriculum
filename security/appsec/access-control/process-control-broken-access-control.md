@@ -1,7 +1,15 @@
 ---
 author: lizTheDeveloper
 type: normal
-category: best practice
+category: best-practice
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Process Control Broken Access Control
@@ -36,9 +44,9 @@ Where should automated checks for access control go?
 ## Revision
 
 When should application resources be checked for proper access control configuration?
+
 ???
 
 - During code review
 - quarterly
 - continuously
- 

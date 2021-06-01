@@ -9,6 +9,15 @@ links:
   - >-
     [Template
     Literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Template Literals
@@ -121,3 +130,4 @@ console.log(str)
 - dayNumber
 - ${year}
 - {dayNumber}
+ 

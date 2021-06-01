@@ -9,9 +9,18 @@ links:
   - >-
     [MDN Docs on
     :empty](https://developer.mozilla.org/en-US/docs/Web/CSS/:empty){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
-# `:empty` and `:blank`
+# :empty and :blank
 
 
 ---
@@ -58,7 +67,9 @@ Which pseudo-class would select the following element?
 <p> </p>
 ```
 
+```css
 ???
+```
 
 - `:blank`
 - `:empty`

@@ -9,7 +9,14 @@ links:
   - >-
     [The Big-O
     Notation](https://rob-bell.net/2009/06/a-beginners-guide-to-big-o-notation/){website}
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Approximating Memory and Time Required by Data Types
@@ -73,7 +80,7 @@ In an array, how many operations are required for the worst-case scenario deleti
 
 ## Revision
 
-Which of the following operations is bounded by the constant function?
+Which of the following operations is bounded by the constant approximation function?
 
 ???
 
@@ -102,4 +109,3 @@ In a singly linked list:
 - inserting **before** a known node is a `O(n)` operation
 
 Although possible with a singly linked list, you might want to consider using a doubly linked list if you need to frequently insert **before** a node. In this case (doubly linked list), inserting before a node will also be an `O(1)` operation.
- 

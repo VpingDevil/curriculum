@@ -4,18 +4,26 @@ type: normal
 category: must-know
 links:
   - >-
-    [HTML <blockquotes>
-    element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote){documentation}
+    [HTML <blockquote>
+    Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
-# The `<blockquotes>` Element
+# The blockquote Element
 
 
 ---
 
 ## Content
 
-The HTML `<blockquote>` element or the **Block Quotation** element is used to enclose text which represents an extended or long quotation. This element is displayed as a block element and usually has a 1em top/bottom margin added by default, as well as a left/right indentation of 40 pixels. Of course, this is all editable with CSS styling.
+The HTML `<blockquote>` element or the **Block Quotation** element is used to enclose text which represents an extended or long quotation. This element is displayed as a block element and usually has a 1em top/bottom margin added by default, as well as a left/right indentation of 40 pixels. This can all be editable with CSS styling.
 
 Example:
 

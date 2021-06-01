@@ -2,10 +2,19 @@
 author: Stefan-Stojanovic
 type: normal
 category: must-know
-links: null
+
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
-# The `<min>` And `<max>` Elements
+# The min & max Elements
 
 
 ---
@@ -64,10 +73,10 @@ Which statement is NOT true regarding min and max attributes within forms?
 
 ???
 
-- `min` & `max` are required to be used together.
-- `<input min="date">` specifies the minimum date allowed.
-- `<input max="number">` specifies the maximum number allowed.
-- `min` & `max` attributes work with datetime, month, range, number, week, time and datetime-local.
+- `min & max are required to be used together.`
+- `<input min="date"> specifies the minimum date allowed.`
+- `<input max="number"> specifies the maximum number allowed.`
+- `min & max attributes work with datetime, month, range, number, week, time and datetime-local.`
 
 
 ---

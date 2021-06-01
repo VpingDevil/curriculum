@@ -8,6 +8,10 @@ tags:
   - numbering
   - lines
   - nl
+revisionQuestion:
+  formats:
+    - type-in-the-gap
+  context: relative
 ---
 
 # Count non-empty lines with `nl` utility

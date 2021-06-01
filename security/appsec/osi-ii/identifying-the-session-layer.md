@@ -2,11 +2,18 @@
 author: milesflo
 type: normal
 category: must-know
-inAlgoPool: false
 links:
   - >-
     [SANS
     Institute](https://www.sans.org/reading-room/whitepapers/protocols/applying-osi-layer-network-model-information-security-1309){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Identifying the Session Layer
@@ -26,6 +33,7 @@ Session Checkpointing allows information from different streams, perhaps origina
 ## Practice
 
 What roles does The Session Layer play in the OSI 7 Layer Model?
+
 ???
 
 - Opening, closing, and managing connections between applications
@@ -66,4 +74,3 @@ What role does the Session Layer play in the OSI 7 Layer Model?
 - Maintaining and ensuring a stable connection between two hosts over the Internet
 - Routing and transmission over the physical topography of the Internet
 - Packaging data packets into data streams and vice versa
- 

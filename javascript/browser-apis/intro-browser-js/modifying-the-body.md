@@ -1,10 +1,7 @@
 ---
 author: elliehoward
-
 type: normal
-
 category: must-know
-
 links:
   - >-
     [MDN -
@@ -12,10 +9,19 @@ links:
   - >-
     [W3 Schools - HTML DOM body
     Property](https://www.w3schools.com/jsref/prop_doc_body.asp){website}
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Modifying the Body
+
 
 ---
 
@@ -64,6 +70,7 @@ You can also do cool things like change the background color of the page by sett
 </html>;
 ```
 
+
 ---
 
 ## Practice
@@ -83,11 +90,12 @@ let bodyElement =
 - `element`
 - `innerHTML`
 
+
 ---
 
 ## Revision
 
-What happens when you changes the innerHTML of the body tag?
+What happens when you change the `innerHTML` of the body tag?
 
 ???
 

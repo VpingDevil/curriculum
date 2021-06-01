@@ -6,9 +6,18 @@ links:
   - >-
     [HTML <kbd>
     Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/kbd){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
-# `<kbd>` - Keyboard Input Element
+# The kbd Element
 
 
 ---
@@ -60,7 +69,9 @@ When using the `<kbd>` element, which statement is true?
 
 What HTML element wraps around keyboard names to display the text differently than the surrounding text?
 
-???
+```html
+<???>
+```
 
 - kbd
 - key

@@ -2,6 +2,10 @@
 author: catalin
 type: normal
 category: tip
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Short Introduction to `Wget`

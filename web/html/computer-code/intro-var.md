@@ -6,9 +6,18 @@ links:
   - >-
     [HTML <var>
     Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/var){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
-# Intro `<var>`
+# The var Element
 
 
 ---
@@ -61,7 +70,9 @@ Which statement is not true about using the `<var>` element?
 
 What HTML element is best to display mathematical expressions or a programming context differently than the surrounding text?
 
-???
+```html
+<???>
+```
 
 - var
 - samp

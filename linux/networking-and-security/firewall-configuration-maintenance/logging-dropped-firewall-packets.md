@@ -1,12 +1,16 @@
 ---
 author: tuwidc
 type: normal
-category: best practice
+category: best-practice
 tags:
   - iptables
   - firewall
   - logging
 notes: ''
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Logging dropped firewall packets

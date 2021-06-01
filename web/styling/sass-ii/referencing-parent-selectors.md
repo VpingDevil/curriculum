@@ -2,10 +2,10 @@
 author: tommarshall
 type: normal
 category: tip
-links:
-  - >-
-    [Referencing Parent
-    Selectors](http://thesassway.com/intermediate/referencing-parent-selectors-using-ampersand){website}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Referencing Parent Selectors

@@ -6,6 +6,10 @@ links:
   - >-
     [Step-by-step, interactive Kruskal`s algorithm
     application](https://www-m9.ma.tum.de/graph-algorithms/mst-kruskal/index_en.html){website}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Kruskal's Algorithm
@@ -56,7 +60,7 @@ Swipe to the next insight to see an iteration of the algorithm.
 
 Kruskal's algorithm is used for finding
 
-???.
+???
 
 - the minimum spanning tree in a weighted graph
 - distances between the nodes in a weighted graph
@@ -86,4 +90,3 @@ If the chosen edge creates a cycle, the data structure won't be a tree anymore.
 
 [4: Hint]
 If they are part of the same component, it means those nodes will already appear in the final spanning tree.
- 

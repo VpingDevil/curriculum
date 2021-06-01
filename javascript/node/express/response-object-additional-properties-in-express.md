@@ -1,13 +1,21 @@
 ---
 author: catalin
-
 type: normal
-
 category: must-know
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Response Object Additional Properties in Express
+
 
 ---
 
@@ -62,19 +70,19 @@ Consider the response object proposed by the Express library.
 How would you clear the cookie `my-rogue-cookie`?
 
 ```javascript
-res.???(???)
+res.???('???')
 ```
 
 If an error happened we would like to send a "There is an error" message to the client. Implement this, together with a **503** status code in the following snippet:
 
 ```javascript
-res.???(???, ???)
+res.???('???', ???)
 ```
 
 - clearCookie
-- 'my-rogue-cookie'
+- my-rogue-cookie
 - send
-- 'There is an error'
+- There is an error
 - 503
 - 404
 - eraseCookie

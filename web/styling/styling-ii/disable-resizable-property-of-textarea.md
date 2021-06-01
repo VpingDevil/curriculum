@@ -1,14 +1,22 @@
 ---
 author: oj14henry
 type: normal
-category: how to
+category: how-to
 tags:
   - textarea
   - disable
   - resizable
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
-# Disable resizable property of `textarea`
+# Disable resizable property of textarea
 
 
 ---

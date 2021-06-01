@@ -6,6 +6,15 @@ links:
   - >-
     [What are
     decorators?](https://www.thecodeship.com/patterns/guide-to-python-function-decorators/){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # What Are Decorators?
@@ -109,9 +118,12 @@ def hello_heading(func):
   return func_wrapper
 ```
 
+```plain-text
 ???
+```
 
 - B
 - A
 - both
 - neither
+ 

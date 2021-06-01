@@ -2,10 +2,20 @@
 author: Stefan-Stojanovic
 type: normal
 category: must-know
-links: null
+
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
-# The `<select>` Element
+# The select Element
 
 
 ---
@@ -86,7 +96,9 @@ Which form attribute is used to define items of a drop-down list within a `selec
 </select>
 ```
 
-???
+```html
+__ = ???
+```
 
 - `option`
 - `optgroup`
@@ -121,7 +133,9 @@ Which form attribute is used to define groups of related option of a drop-down l
 </select>
 ```
 
-???
+```html
+__ = ???
+```
 
 - `optgroup`
 - `option`

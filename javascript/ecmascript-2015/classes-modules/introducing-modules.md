@@ -9,6 +9,16 @@ links:
   - >-
     [MDN -
     Export](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Introducing Modules
@@ -103,3 +113,4 @@ Fill in the missing keywords for importing and renaming a module at the same tim
 - imports
 - export
 - exports
+ 

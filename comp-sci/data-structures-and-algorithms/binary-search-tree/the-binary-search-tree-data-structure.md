@@ -4,6 +4,14 @@ type: normal
 category: must-know
 links:
   - '[Binary Search Trees](http://algs4.cs.princeton.edu/32bst/){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # The Binary Search Tree Data Structure
@@ -36,7 +44,7 @@ This structure also makes for efficient `min` and `max` operations; to find the 
 
 ## Practice
 
-Which key prevents the following tree from being a *BST*?
+Which key prevents the following tree from being a *Binary Search Tree*?
 
 ```plain-text
        10
@@ -67,4 +75,3 @@ Which child has to be larger than the parent for a tree to be a Binary Search Tr
 - Left
 - Both
 - None
- 

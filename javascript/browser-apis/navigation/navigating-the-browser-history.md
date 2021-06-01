@@ -5,6 +5,16 @@ category: feature
 links:
   - >-
     [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/API/History_API#Moving_forward_and_backward){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Navigating the browser history
@@ -77,3 +87,4 @@ window.???.???();
 - `go`
 - `navigation`
 - `length`
+ 

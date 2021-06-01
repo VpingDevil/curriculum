@@ -1,15 +1,19 @@
 ---
 author: mihaiberq
-
 type: normal
-
 category: must-know
-
 links:
   - >-
     [What Is an
     Array?](http://www.bbc.co.uk/education/guides/z4tf9j6/revision/2){website}
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # The Array Data Structure
@@ -84,11 +88,12 @@ Swap the order to assign a value to the cell:
 myArray[0] = x;
 ```
 
+
 ---
 
 ## Practice
 
-To access an element in an array, you would use:
+To access an element in an array, you would use: 
 
 ???
 
@@ -97,13 +102,12 @@ To access an element in an array, you would use:
 - values
 - data structures
 
+
 ---
 
 ## Revision
 
-An array that has its size declared up-front is called
-
-???
+An array that has its size declared up-front is called ???
 
 - static
 - dynamic

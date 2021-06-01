@@ -6,9 +6,18 @@ links:
   - >-
     [HTML <footer>
     Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
-# The `<footer>` Element
+# The footer Element
 
 
 ---
@@ -52,7 +61,7 @@ The `<footer>` element is encouraged to contain which of the following?
 ???
 
 - copyright or contact information, links to related or to the top of the page and sitemap
-- additional `<footer>` elements and to be added within `<header>` element.
+- `additional <footer> elements and to be added within <header> element.`
 - display one or more heading (h1-h6) elements be used only once in a page for validation.
 - hold a graphical logo or an image, passwords and/or other sensitive data
 
@@ -63,7 +72,9 @@ The `<footer>` element is encouraged to contain which of the following?
 
 Which container is best to organize the bottom of a web page or content section?
 
+```html
 ???
+```
 
 - `<footer>`
 - `<foot>`

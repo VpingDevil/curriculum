@@ -2,6 +2,16 @@
 author: mihaiberq
 type: normal
 category: must-know
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Decorators and methods
@@ -91,7 +101,9 @@ def deco(func):
     ...
 ```
 
+```plain-text
 ???
+```
 
 - A
 - B
@@ -123,7 +135,9 @@ def deco(self):
   return wrapper
 ```
 
+```plain-text
 ???
+```
 
 - B
 - C
@@ -212,3 +226,4 @@ A dictionary like this will raise an error:
 mydict = {"a":1, "b":2,"c":3}
 # TypeError: unexpected keyword argument c
 ```
+ 

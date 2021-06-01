@@ -9,9 +9,18 @@ links:
   - >-
     [Python
     zip()](https://www.programiz.com/python-programming/methods/built-in/zip){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
-# The `zip` Built-in Function
+# The zip Function
 
 
 ---
@@ -154,4 +163,5 @@ print(zip(dates, values))
 *`zip` should only be used when you don’t care about trailing, unmatched values from the longer iterables, since the iterator stops after n iterations, where n is the size of the shortest input iterable. If those values are important, another variant of `zip` is built-in called  `itertools.zip_longest()` which automatically extends any shorter input lists with `fillvalue`, which by default is a `None` object.*
 
 [2:Uneven length = loss of information]
-*Obviously, any information discarded in the initial `zip` step because of input iterables being of uneven length is not recovered when we unzip the result again; the information has already been discarded at the `zip` step.*
+*Any information discarded in the initial `zip` step because of input iterables being of uneven length is not recovered when we unzip the result again; the information has already been discarded at the `zip` step.*
+ 

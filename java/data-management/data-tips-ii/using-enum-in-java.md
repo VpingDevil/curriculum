@@ -4,6 +4,15 @@ type: normal
 category: must-know
 tags:
   - enum
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Using `enum` in Java

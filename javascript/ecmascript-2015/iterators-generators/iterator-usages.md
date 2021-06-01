@@ -2,10 +2,17 @@
 author: alexjmackey
 type: normal
 category: must-know
-inAlgoPool: false
 links:
   - >-
     [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Iterator Usages
@@ -15,7 +22,7 @@ links:
 
 ## Content
 
-Of course, iterators can work with any sequence of items you want so you could use iterator for:
+Iterators can work with any sequence of items you want so you could use iterator for:
 
 - More efficient resource and memory usage as values are computed on demand and not held in memory
 - Mathematical sequences of numbers e.g. the classic example is Fibonacci numbers
@@ -49,8 +56,8 @@ Can an iterator be used to implement an infinite sequence?
 
 ???
 
-- Yes, by never returning `done` as `true`
-- No, because an iterator must always have `done` equal to `true` at some point
+- Yes, by never returning done as true
+- No, because an iterator must always have done equal to true at some point
 - No, because the memory needed will kill any machine
-- Yes, by making the `next` function recursive
+- Yes, by making the next function recursive
  

@@ -9,9 +9,13 @@ links:
   - >-
     [Working With
     Shapes](https://css-tricks.com/working-with-shapes-in-web-design/){website}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
-# Manipulating shapes using CSS: `border`
+# Manipulating shapes using border
 
 
 ---

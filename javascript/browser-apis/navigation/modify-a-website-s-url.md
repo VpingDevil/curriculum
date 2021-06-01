@@ -7,6 +7,16 @@ links:
     [css-tricks.com](https://css-tricks.com/using-the-html5-history-api/hello){website}
   - >-
     [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/API/History_API#The_pushState()_method){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Modify a website's URL
@@ -38,8 +48,11 @@ history.pushState([data], [title], [url]);
 What are the three parameters required with the `pushState` method (in order) when modifying a website's URL?
 
 ```javascript
-history.pushState([???],
-       [???],[???])
+history.pushState(
+  [???],
+  [???],
+  [???]
+)
 ```
 
 - `data`
@@ -60,11 +73,15 @@ history.pushState([???],
 What method is used to modify a website URL without a full page refresh?
 
 ```javascript
-history.???([data],
-            [title], [url]);
+history.???(
+  [data],
+  [title],
+  [url]
+);
 ```
 
 - `pushState`
 - `modURL`
 - `changeRoute`
 - `push`
+ 

@@ -9,9 +9,18 @@ links:
   - >-
     [W3S: <main>
     Element](https://www.w3schools.com/tags/tag_main.asp){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
-# The `<main>` Element
+# The main Element
 
 
 ---
@@ -105,7 +114,9 @@ As you can see in the example above, we have added `<article>` within our `<main
 
 Which HTML container element should only be used once within a page layout?
 
+```html
 ???
+```
 
 - `<main>`
 - `<nav>`

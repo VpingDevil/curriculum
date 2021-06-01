@@ -9,6 +9,14 @@ links:
   - >-
     [Node Module
     Patterns](https://darrenderidder.github.io/talks/ModulePatterns/#/5){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Module patterns
@@ -60,6 +68,7 @@ foo();
 ## Practice
 
 What must be used when exporting an anonymous function?
+
 ???
 
 - module.exports

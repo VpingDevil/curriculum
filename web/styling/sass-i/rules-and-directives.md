@@ -1,11 +1,20 @@
 ---
 author: tommarshall
 type: normal
-category: best practice
+category: best-practice
 links:
   - >-
     [Documentation on
     Sass](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#_5){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # @-Rules and Directives

@@ -2,7 +2,6 @@
 author: SebaRaba
 type: normal
 category: must-know
-inAlgoPool: false
 tags:
   - workout
   - deep
@@ -22,6 +21,15 @@ links:
   - >-
     [Create Index
     W3Schools](https://www.w3schools.com/sql/sql_create_index.asp){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Create Indices

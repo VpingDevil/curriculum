@@ -1,7 +1,7 @@
 ---
 author: tuwidc
 type: normal
-category: how to
+category: how-to
 tags:
   - linux
   - ssh
@@ -9,7 +9,7 @@ tags:
 notes: code blocks width is weird
 ---
 
-# Debugging `ssh` client issues
+# Debugging ssh client issues
 
 
 ---

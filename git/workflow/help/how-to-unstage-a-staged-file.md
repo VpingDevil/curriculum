@@ -6,6 +6,15 @@ links:
   - >-
     [Undoing Things Official
     Documentation](http://git-scm.com/book/en/v2/Git-Basics-Undoing-Things){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # How to unstage a staged file
@@ -40,11 +49,11 @@ git add enki.md games.md
 git reset 
 ```
 
- ???
+???
 
-- Unstage `enki.md` and `games.md`
-- Unstage `games.md`
-- Delete `enki.md` and `games.md`
+- Unstage enki.md and games.md
+- Unstage games.md
+- Delete enki.md and games.md
 
 
 ---

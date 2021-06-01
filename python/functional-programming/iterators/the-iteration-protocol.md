@@ -6,6 +6,15 @@ links:
   - >-
     [Iteration
     Protocol](https://medium.com/the-python-corner/iterators-and-generators-in-python-2c3929a144b){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # The Iteration Protocol
@@ -76,10 +85,10 @@ What happens when an iterator reaches the end of the sequence being iterated on?
 
 ???
 
-- `StopIteration` exception
-- `FinishIteration` exception
-- `ReferenceError` exception
-- `TypeError` exception
+- StopIteration exception
+- FinishIteration exception
+- ReferenceError exception
+- TypeError exception
 - Nothing
 
 
@@ -95,13 +104,15 @@ print(sum(iterator))
 print(sum(iterator))
 ```
 
-???
+```plain-text
+???, then ???
+```
 
-- `15`, then `0`
-- `TypeError` exception
-- `15`, then `15`
-- `5`, then `5`
-- `5`, then `0`
+- 15
+- 0
+- TypeError exception
+- 10
+- 5
 
 
 ---
@@ -111,3 +122,4 @@ print(sum(iterator))
 [1:`StopIteration` exception]
 An exception is simply another word for an error. Taken directly from the Python 3.6 documentation:
 "Raised by built-in function `next()` and an iterator‘s `__next__()` method to signal that there are no further items produced by the iterator. The exception object has a single attribute value, which is given as an argument when constructing the exception, and defaults to None."
+ 

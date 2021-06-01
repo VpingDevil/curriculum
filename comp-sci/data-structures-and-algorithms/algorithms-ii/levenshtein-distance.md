@@ -6,7 +6,14 @@ links:
   - >-
     [Optimizing Levensthein distance
     computation](http://stackoverflow.com/questions/3183149/most-efficient-way-to-calculate-levenshtein-distance){website}
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Levenshtein Distance
@@ -62,7 +69,7 @@ The *Levensthein distance* between the two strings, *trace* and *face*, is locat
 
 ## Practice
 
-What is the distance between strings `string` and `int`?
+What is the Levensthein distance between strings `string` and `int`?
 
 ???
 
@@ -76,7 +83,7 @@ What is the distance between strings `string` and `int`?
 
 ## Revision
 
-How many removals are needed to get from the string `test` to `east`?
+In the context of Levenshtein distance, how many removals are needed to get from the string `test` to `east`?
 
 ???
 
@@ -84,4 +91,3 @@ How many removals are needed to get from the string `test` to `east`?
 - 1
 - 2
 - 3
- 

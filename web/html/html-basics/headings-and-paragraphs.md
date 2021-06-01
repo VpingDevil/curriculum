@@ -2,7 +2,6 @@
 author: mihaiberq
 type: normal
 category: must-know
-inAlgoPool: false
 links:
   - >-
     [HTML <p>
@@ -10,6 +9,15 @@ links:
   - >-
     [HTML
     Headings](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Headings and Paragraphs
@@ -62,9 +70,11 @@ This HTML will look like this in the browser:
 
 ## Practice
 
-The smallest sized heading is
+The smallest sized heading is:
 
+```html
 ???
+```
 
 - `<h6>`
 - `<h1>`

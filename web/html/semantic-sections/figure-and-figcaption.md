@@ -12,6 +12,15 @@ links:
   - >-
     [HTML <figcaption>
     Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figcaption){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Figure & Figcaption
@@ -68,8 +77,10 @@ Match the code with the tags to properly define a caption for the photo.
 </tag1>
 ```
 
+```plain-text
 tag1 = ???
 tag2 = ???
+```
 
 - figure
 - figcaption

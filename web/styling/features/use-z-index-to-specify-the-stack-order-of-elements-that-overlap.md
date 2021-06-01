@@ -14,9 +14,18 @@ links:
   - >-
     [MDN Docs on
     z-index](https://developer.mozilla.org/en-US/docs/Web/CSS/z-index){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
-# Use `z-index` to specify the stack order of elements that overlap
+# Use z-index to specify the stack order of elements that overlap
 
 
 ---
@@ -64,12 +73,13 @@ Which of the following elements will be displayed on top?
 }
 ```
 
-???
+```plain-text
+#???
+```
 
 - `A`
 - `B`
 - `C`
-- They are all on the same level.
 
 
 ---

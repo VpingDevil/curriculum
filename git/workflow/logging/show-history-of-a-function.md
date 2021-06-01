@@ -2,6 +2,15 @@
 author: rosielowther
 type: normal
 category: feature
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Show history of a function

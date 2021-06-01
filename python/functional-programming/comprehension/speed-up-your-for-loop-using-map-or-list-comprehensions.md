@@ -8,9 +8,18 @@ links:
   - >-
     [docs.python.org](https://docs.python.org/2/library/functions.html#map){website}
 notes: ''
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
-# Speed up your `for` loop using `map()` or list comprehensions
+# Speed up your for loop using map() or list comprehensions
 
 
 ---
@@ -76,3 +85,4 @@ What are the two methods that improve list iteration performance in python?
 - sort, map
 - arrange, map
 - list comprehension, sort
+ 

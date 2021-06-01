@@ -12,6 +12,11 @@ notes: >-
   the more common way to use a generator is either to handle the exception via
   try/except, or to call it in a for loop, in which case the for statement
   handles the StopIteration and uses it to terminate the loop.
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # What are generators
@@ -53,11 +58,14 @@ print(next(g)) # StopIteration error
 
 ## Revision
 
-What statement is specific to generators instead of `return` ?
+What other statement is specific to generators instead of `return`?
 
+```python
 ???
+```
 
 - `yield`
 - `for`
 - `await`
 - `return`
+ 

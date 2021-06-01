@@ -9,6 +9,15 @@ links:
   - >-
     [Node
     Modules](https://www.bennadel.com/blog/2169-where-does-node-js-and-require-look-for-modules.htm){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Requiring and Exporting
@@ -54,6 +63,7 @@ Required and exported!
 ## Practice
 
 Which of the following is included in all JavaScript files by default?
+
 ???
 
 - module.exports
@@ -67,7 +77,7 @@ Which of the following is included in all JavaScript files by default?
 
 Complete the code snippet to import `module.js`:
 
-```plain-text
+```js
 var mod = ???('./module.js');
 ```
 

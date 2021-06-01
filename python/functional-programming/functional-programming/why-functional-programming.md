@@ -9,6 +9,14 @@ links:
   - >-
     [Functional Programming
     HOWTO](https://docs.python.org/2/howto/functional.html){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Why Functional Programming?

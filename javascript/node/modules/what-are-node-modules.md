@@ -7,6 +7,14 @@ tags:
   - workout
 links:
   - '[Node Modules](http://book.mixu.net/node/ch8.html){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # What are Node Modules?
@@ -46,10 +54,10 @@ Which of the following statements about node modules do you consider false?
 ## Revision
 
 Where are third party Node.js modules installed to?
+
 ???
 
 - node_modules
 - local_modules
 - libraries
 - libs
- 

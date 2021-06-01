@@ -1,10 +1,19 @@
 ---
 author: catalin
 type: normal
-category: how to
-inAlgoPool: false
+category: how-to
 links:
-  - '[irc.freenode.net](irc.freenode.net){website}'
+  - '[freenode IRC](https://webchat.freenode.net/){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Getting help
@@ -40,7 +49,7 @@ git-clone - Clone a repository into a
 ...
 ```
 
-Additional help can be found on the `#git` and `#github` channels in the Freenode IRC server (`irc.freenode.net`).
+Additional help can be found on the `#git` and `#github` channels in the Freenode IRC server.
 
 
 ---

@@ -2,10 +2,17 @@
 author: jfarmer
 type: normal
 category: must-know
-inAlgoPool: false
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
-# The Loopback Network Interface `lo`
+# The Loopback Network Interface lo
 
 
 ---
@@ -41,9 +48,7 @@ The loopback interface is used for debugging and running machine-internal networ
 
 ## Practice
 
-You can access the loopback interface by going to 
-
-???.
+You can access the loopback interface by going to ???
 
 - `http://127.0.0.1`
 - `http://loopback`
@@ -55,9 +60,7 @@ You can access the loopback interface by going to
 
 ## Revision
 
-Loopback interface always refers to the 
-
-???.
+Loopback interface always refers to the ???
 
 - machine itself
 - ISP address

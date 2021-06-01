@@ -1,11 +1,20 @@
 ---
 author: catalin
 type: normal
-category: best practice
+category: best-practice
 links:
   - >-
     [stackoverflow.com](http://stackoverflow.com/questions/10599710/weakhashmap-example){website}
 notes: 'https://insights.enki.com/#/contrib/others/5585b52f575399cf01b26b9f?search=kha'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # How and when to use `WeakHashMap` class

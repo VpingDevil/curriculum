@@ -1,18 +1,24 @@
 ---
 author: SebaRaba
-
 type: normal
-
 category: must-know
-
 links:
   - >-
     [More on aggregate
     functions](https://docs.microsoft.com/en-us/sql/t-sql/functions/aggregate-functions-transact-sql){documentation}
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # SUM clause
+
 
 ---
 
@@ -112,6 +118,7 @@ Which query will do so?
 - SELECT SUM(cost) FROM item;
 - SELECT AVG(cost) FROM item;
 - SELECT MAX(cost) FROM item;
+
 
 ---
 

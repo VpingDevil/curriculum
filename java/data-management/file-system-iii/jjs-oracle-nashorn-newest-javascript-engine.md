@@ -6,6 +6,15 @@ links:
   - >-
     [www.oracle.com](http://www.oracle.com/technetwork/articles/java/jf14-nashorn-2126515.html){website}
 notes: 'https://insights.enki.com/#/contrib/others/55f43787ce84ec2100d2bb5e?search=kha'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # `JJS` - Oracle Nashorn, newest JavaScript Engine
@@ -47,7 +56,7 @@ A few interesting features of Oracle Nashorn:
 
 Using Java 8’s Oracle Nashorn engine run `enki.js`:
 
-```plain-text
+```java
 ??? ???
 ```
 

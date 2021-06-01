@@ -6,6 +6,16 @@ links:
   - >-
     [Viewing The Commit
     History](http://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Search for commits by author

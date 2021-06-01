@@ -1,7 +1,16 @@
 ---
 author: jfarmer
 type: normal
-category: how to
+category: how-to
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Removing Data From a Heap With The `downheap` Operation
@@ -45,7 +54,7 @@ In this specific case we are done, but in general we might have to perform multi
 
 ## Practice
 
-Which node should we move into the root position after removing the old one?
+Which value should we move into the root position after removing the old root?
 
 ```plain-text
        ???
@@ -73,4 +82,3 @@ During `downheap` operation, if both the children of a node have larger keys tha
 - the larger of the two children
 - the smaller of the two children
 - none, since it already respects the heap property
- 

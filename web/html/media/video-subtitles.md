@@ -9,6 +9,15 @@ links:
   - >-
     [HTML <video>
     Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Video Subtitles
@@ -86,7 +95,9 @@ In the case you have videos that support multiple languages, you can provide the
 
 What HTML element is used to connect subtitles to a video?
 
+```html
 ???
+```
 
 - `<track>`
 - `<captions>`
@@ -100,11 +111,12 @@ What HTML element is used to connect subtitles to a video?
 ## Revision
 
 When working with multiple files that provide the subtitles in various languages with a web video, how is one of them given greater priority that the others.
+
 ???
 
-- Add the `default` attribrute to one of them.
-- The first file assigned in the `<track`>.
-- The last file assigned in the `<track`>.
+- `Add the default attribute to one of them.`
+- `The first file assigned in the <track>.`
+- `The last file assigned in the <track>.`
 - Subtitles are always off and must be selected by the user.
 
 

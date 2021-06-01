@@ -7,6 +7,10 @@ tags:
   - comments
   - clean
 notes: 'ARSENY, THIS IS AN EXPERT''S INSIGHT - DO NOT REJECT'
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Clean configuration files
@@ -45,9 +49,7 @@ sudo clean_file /etc/ntp/conf
 
 ## Revision
 
-A script to delete comments and empty lines from configuration files would use the 
-
-??? command .
+A script to delete comments and empty lines from configuration files would use the ??? command .
 
 - sed
 - clr

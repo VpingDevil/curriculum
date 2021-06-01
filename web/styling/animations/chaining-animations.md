@@ -1,7 +1,7 @@
 ---
 author: nene
 type: normal
-category: how to
+category: how-to
 tags:
   - chain
   - animations
@@ -12,6 +12,16 @@ links:
   - >-
     [MDN Docs on
     @keyframes](https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Chaining animations
@@ -53,7 +63,9 @@ If the first one takes 1 second to complete, a chain can be created by using the
 
 What property is used to chain animations?
 
+```css
 ???
+```
 
 - animation-delay
 - animation-chained
@@ -65,9 +77,11 @@ What property is used to chain animations?
 
 ## Revision
 
-Which CSS property can be used to chain animations together?
+The CSS property used to chain animations together is:
 
+```css
 ???
+```
 
 - `animation-delay`
 - `animation-chain`

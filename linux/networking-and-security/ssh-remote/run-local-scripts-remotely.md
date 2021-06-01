@@ -1,7 +1,12 @@
 ---
 author: catalin
 type: normal
-category: how to
+category: how-to
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Run local scripts remotely
@@ -28,7 +33,7 @@ The output of `enki.sh` will be displayed locally.
 
 ## Revision
 
-Run a local script on a remote machine:
+Run a local script on a `user@server` machine:
 
 ```bash
 ??? ??? 'bash -s' 

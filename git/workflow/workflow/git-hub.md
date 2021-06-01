@@ -4,6 +4,14 @@ type: normal
 category: must-know
 links:
   - '[Github Official Website](https://github.com/){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # GitHub
@@ -52,4 +60,3 @@ GitHub is just ??? Git repositories.
 - an alternative to
 - another name for
 - a newer implementation for
- 

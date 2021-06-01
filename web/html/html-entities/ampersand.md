@@ -2,7 +2,16 @@
 author: Stefan-Stojanovic
 type: normal
 category: must-know
-links: null
+
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # The Ampersand Character
@@ -76,7 +85,9 @@ What does the "&" character entity display in this line of code?
 
 What HTML character entity is used to insert an ampersand symbol ("&")?
 
+```html
 ???
+```
 
 - `&amp;`
 - `&&;`

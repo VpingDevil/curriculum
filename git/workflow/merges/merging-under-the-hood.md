@@ -6,6 +6,11 @@ links:
   - >-
     [Git Merge
     Tutorial](https://www.atlassian.com/git/tutorials/using-branches/git-merge){website}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Merging under the hood
@@ -43,11 +48,13 @@ When both branches modify the same part of the same file, conflicts are explicit
 ## Revision
 
 What flag can be used such that fast-forward merge is not used even if its possible?
+
+```basg
 ???
+```
 
 - `--no-ff`
 - `-n`
 - `-n-ff`
 - `ff-n`
 - `--twm`
- 

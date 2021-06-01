@@ -1,10 +1,20 @@
 ---
 author: fahimrahman
 type: normal
-category: best practice
+category: best-practice
 links:
   - >-
     [www.securecoding.cert.org](https://www.securecoding.cert.org/confluence/display/java/NUM07-J.+Do+not+attempt+comparisons+with+NaN){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Do not attempt comparisons with NaN

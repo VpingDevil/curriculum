@@ -15,9 +15,13 @@ links:
   - >-
     [Inherit and Initial
     Values](http://www.quirksmode.org/css/cascading/values.html){website}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
-# Difference between `initial` and `inherit`
+# Difference between initial & inherit
 
 
 ---

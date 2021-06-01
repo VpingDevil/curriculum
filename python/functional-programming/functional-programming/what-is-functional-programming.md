@@ -6,6 +6,16 @@ links:
   - >-
     [More on functional
     programming](https://codesachin.wordpress.com/2016/04/03/a-practical-introduction-to-functional-programming-for-python-coders/){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # What is functional programming
@@ -93,7 +103,7 @@ result = ???(sum(2, 3),4)
 
 ## Revision
 
-Can you predict the output?
+Can you predict what the output will be?
 
 ```py
 foo = list(range(1,10))
@@ -107,11 +117,13 @@ print(result)
 
 ```
 
-???
+```plain-text
+[???]
+```
 
-- [2]
-- [2, 4, 6, 8]
-- [2, 4, 6, 8, 10]
+- 2
+- 2, 4, 6, 8
+- 2, 4, 6, 8, 10
 
 
 ---
@@ -119,4 +131,5 @@ print(result)
 ## Footnotes
 
 [1: paradigm]
-A programming paradigm is a "style" of doing something. Basically they define a way to classify programming languages based on their features.
+A programming paradigm is a "style" of doing something. They define a way to classify programming languages based on their features.
+ 

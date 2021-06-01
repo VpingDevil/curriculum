@@ -1,12 +1,20 @@
 ---
 author: mihaiberq
 type: normal
-category: how to
+category: how-to
 links:
   - '[Nettop](http://www.unix.com/man-page/osx/1/nettop/){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
-# `nettop` and `jnettop`
+# nettop and jnettop
 
 
 ---

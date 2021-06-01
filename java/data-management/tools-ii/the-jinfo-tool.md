@@ -7,6 +7,16 @@ links:
     [www.tutorialspoint.com](http://www.tutorialspoint.com/unix_commands/jinfo.htm){website}
 notes: >-
   https://insights.enki.com/#/contrib/others/55f423bfd7d6642d00118729?search=khandelwalrinki
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # The `jinfo` tool
@@ -55,9 +65,9 @@ The utility can also use the `jsadebugd` daemon to query a process or core file 
 
 Print the JavaSystem properties as name value pairs with the given process running on a 64 bit VM:
 
-```plain-text
+```java
 jinfo ??? ???
-        PID
+  PID
 ```
 
 - `-J-d64`
@@ -74,7 +84,7 @@ jinfo ??? ???
 
 Print the JavaSystem properties as name value pairs:
 
-```plain-text
+```java
 jinfo ??? PID
 ```
 

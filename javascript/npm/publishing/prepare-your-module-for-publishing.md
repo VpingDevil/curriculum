@@ -1,11 +1,20 @@
 ---
 author: mihaiberq
 type: normal
-category: how to
+category: how-to
 tags:
   - introduction
   - workout
   - deep
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Preparing Your Module For Publishing

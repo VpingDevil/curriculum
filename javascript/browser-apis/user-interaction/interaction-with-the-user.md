@@ -1,11 +1,21 @@
 ---
-author: ioanna.ki
+author: iikiriakidou
 type: normal
-category: how to
+category: how-to
 tags:
   - javascript
 links:
-  - '[javascript.info](javascript.info){website}'
+  - '[The Modern JavaScript Tutorial](https://javascript.info/){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Interaction with the user
@@ -17,19 +27,19 @@ links:
 
 Mainly useful for prototyping, there are multiple ways to interact with the user.
 
-```plain-text
+```js
 prompt(text,default)
 ```
 
 This outputs a modal window with the text, `OK`/`CANCEL` buttons and input field.
 
-```plain-text
+```js
 alert(message):
 ```
 
 This outputs a window with the message and stops execution until the visitor presses the “OK” button.
 
-```plain-text
+```js
 confirm(message):
 ```
 
@@ -68,3 +78,4 @@ Prompt the user with a message and input option:
 - `text`
 - `alert`
 - `confirm`
+ 

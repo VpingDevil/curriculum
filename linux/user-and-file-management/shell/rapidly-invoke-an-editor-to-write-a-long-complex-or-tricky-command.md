@@ -7,6 +7,10 @@ tags:
   - bash
   - terminal
 notes: ''
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Rapidly invoke an editor to write a long, complex, or tricky command
@@ -26,9 +30,7 @@ The shell will take what you've written on the command line so far and paste it 
 
 ## Revision
 
-To open the line you have written so far in the shell into a text editor, you would press
-
-??? .
+To open the line you have written so far in the shell into a text editor, you would press ???
 
 - ctrl-x-e
 - ctrl-x
@@ -50,4 +52,3 @@ Choose the odd one out in the following list.
 - vi
 - vim
 - nano
- 

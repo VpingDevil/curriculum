@@ -2,6 +2,14 @@
 author: nickdaminov
 type: normal
 category: pattern
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Semaphores

@@ -10,9 +10,17 @@ links:
   - >-
     [MDN Docs on
     :focus](https://developer.mozilla.org/en-US/docs/Web/CSS/:focus){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
-# Highlight input forms using `:focus` pseudo-class
+# Highlight input forms using :focus pseudo-class
 
 
 ---

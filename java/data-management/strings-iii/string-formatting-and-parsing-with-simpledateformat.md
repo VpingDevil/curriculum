@@ -1,10 +1,17 @@
 ---
 author: catalin
 type: normal
-category: how to
-links:
-  - '[5597e786d07c503200b46e1e](5597e786d07c503200b46e1e){website}'
-notes: 'https://insights.enki.com/insight/5597e786d07c503200b46e1e'
+category: how-to
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # String formatting and parsing with `SimpleDateFormat`
@@ -79,10 +86,10 @@ Complete the following Java code snippet to convert the date into a string:
 
 ```java
 Date today = Calendar.???()
-                     .getTime();
+  .getTime();
 String convert =
-    new SimpleDateFormat("mm-DD-yyyy")
-     .???(date);
+  new SimpleDateFormat("mm-DD-yyyy")
+  .???(date);
 ```
 
 - `getInstance`

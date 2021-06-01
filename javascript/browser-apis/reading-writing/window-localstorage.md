@@ -11,6 +11,16 @@ links:
   - >-
     [Cookies vs
     localStorage](https://medium.com/datadriveninvestor/cookies-vs-local-storage-2f3732c7d977){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # `Window.localStorage`
@@ -60,7 +70,7 @@ Now that you've learned what `localStorage` is, you might be wondering why you w
 
 ## Practice
 
-Retrieve the data corresponding to the "Enki" key from local storage:
+Retrieve the data corresponding to the `"Enki"` key from local storage:
 
 ```javascript
 var localData = ???.???(
@@ -96,3 +106,4 @@ Create a `localStorage` item with key `awesome` and value `enki`:
 - `clear`
 - `getItem`
 - `newItem`
+ 

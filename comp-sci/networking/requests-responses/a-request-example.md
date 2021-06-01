@@ -1,19 +1,26 @@
 ---
 author: SebaRaba
-
 type: normal
-
 category: must-know
-
 links:
   - >-
-    [What is an "HTTP request"?](https://www.quora.com/What-does-an-HTTP-request-looks-like){website}
+    [What is an "HTTP
+    request"?](https://www.quora.com/What-is-an-HTTP-request){website}
   - >-
-    [History of the Browser User-Agent String](http://webaim.org/blog/user-agent-string-history/){website}
-
+    [History of the Browser User-Agent
+    String](http://webaim.org/blog/user-agent-string-history/){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # A Request Example
+
 
 ---
 
@@ -57,13 +64,12 @@ The payload contains the data specified by the **client**. In this example, the 
 
 Most modern browsers like **Microsoft Edge** (*F12*), **Mozilla Firefox** (*CTRL/CMD + Shift + J*) or **Chrome** (*CTRL/CMD + Shift + i*) provide a Developer Console accompanied by a *Network* tab where you can take a detailed look on all requests and responses made by your browser.
 
+
 ---
 
 ## Practice
 
-The filetypes that the server should return are specified in the
-
-??? header field.
+The filetypes that the server should return are specified in the ??? header field.
 
 - Accept
 - User-Agent
@@ -83,6 +89,7 @@ Within an **HTTP request**, details about the browser are provided by which head
 - `Accept`
 - `Referer`
 - `Connection`
+
 
 ---
 

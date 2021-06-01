@@ -1,20 +1,25 @@
 ---
 author: lizTheDeveloper
 type: normal
-category: how to
+category: how-to
 links:
   - >-
     [Blog Post on Security
-    Misconfiguration](https://www.htbridge.com/blog/OWASP-security-misconfiguration.html){website}
-  - >-
-    [OWASP on Security
-    Misconfiguration](https://www.owasp.org/index.php/Top_10_2013-A5-Security_Misconfiguration){website}
+    Misconfiguration](https://www.immuniweb.com/blog/OWASP-security-misconfiguration.html){website}
   - >-
     [OWASP on Configuration during
-    Development](https://www.owasp.org/index.php/Configuration){website}
+    Development](https://wiki.owasp.org/index.php/Configuration){website}
   - >-
     [12 Factor Apps store config in the
     environment](https://12factor.net/config){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Identify Security Misconfiguration
@@ -37,7 +42,9 @@ Last, run a progressive permissions-removal process for hardened secure systems 
 
 ## Practice
 
-What should you do once you have accounted for all of the credentials and configurations in an application stack? ???
+What should you do once you have accounted for all of the credentials and configurations in an application stack? 
+
+???
 
 - Ensure that the fewest number of sensitive credentials exist
 - Forbid any new cloud services without extensive security review
@@ -61,4 +68,3 @@ What order do these steps go in, to identify security vulnerabilities coming fro
 - Lock down the creation of new cloud services
 - Review watchlists daily for compromised data from your cloud service
 - Contact each cloud provider to obtain credentials to their network systems
- 

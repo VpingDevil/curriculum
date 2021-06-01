@@ -4,6 +4,15 @@ type: normal
 category: must-know
 links:
   - '[Readable Streams](https://nodejs.org/api/stream.html){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Readable Streams

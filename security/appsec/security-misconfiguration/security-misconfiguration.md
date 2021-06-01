@@ -5,16 +5,21 @@ category: pattern
 links:
   - >-
     [Blog Post on Security
-    Misconfiguration](https://www.htbridge.com/blog/OWASP-security-misconfiguration.html){website}
-  - >-
-    [OWASP on Security
-    Misconfiguration](https://www.owasp.org/index.php/Top_10_2013-A5-Security_Misconfiguration){website}
+    Misconfiguration](https://www.immuniweb.com/blog/OWASP-security-misconfiguration.html){website}
   - >-
     [OWASP on Configuration during
-    Development](https://www.owasp.org/index.php/Configuration){website}
+    Development](https://wiki.owasp.org/index.php/Configuration){website}
   - >-
     [12 Factor Apps store config in the
     environment](https://12factor.net/config){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Security Misconfiguration
@@ -34,6 +39,7 @@ Think about all of the cloud services you use, and what their settings were when
 ## Practice
 
 Which is a security misconfiguration vulnerability?
+
 ???
 
 - Keeping the default admin user and password active
@@ -52,4 +58,3 @@ Not checking the default security settings to allow access from only trusted sou
 - Insecure Application
 - Credential Access
 - Remote Access
- 

@@ -2,7 +2,6 @@
 author: SebaRaba
 type: normal
 category: must-know
-inAlgoPool: false
 tags:
   - workout
   - deep
@@ -10,6 +9,15 @@ links:
   - >-
     [More on ADD
     CONSTRAINT](https://www.tutorialspoint.com/sql/sql-alter-command.htm){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Add Constraint
@@ -66,7 +74,7 @@ DROP CONSTRAINT constraint_name;
 
 ## Practice
 
-Consider the `generation` table. We want to add a new constraint called `PK-constraints` in which we state that we want `region_id` and `name` columns to be primary keys:
+Consider the `generation` table. We want to add a new constraint called `PK-constraints` in which we state that we want the `region_id` and `name` columns to be primary keys:
 
 ```md
 | id | region_id | name           |

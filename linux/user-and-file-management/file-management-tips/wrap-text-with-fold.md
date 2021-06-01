@@ -7,10 +7,19 @@ tags:
 links:
   - >-
     [www.tutorialspoint.com](http://www.tutorialspoint.com/unix_commands/fold.htm){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Wrap text with `fold`
-
 
 ---
 
@@ -18,7 +27,7 @@ links:
 
 You can use the `fold` command to break down text at a specified **width**.
 
- This proves useful for formatting text for devices not capable of wrapping text automatically.
+This proves useful for formatting text for devices not capable of wrapping text automatically.
 
 Consider the file `enki.txt`:
 
@@ -44,12 +53,11 @@ single long
  line
 ```
 
-
 ---
 
 ## Practice
 
-How do you break down `file.txt` every 5 characters?
+How do you break down `file.txt` every 5 characters using `fold`?
 
 ```bash
 ??? ??? ???
@@ -63,7 +71,6 @@ How do you break down `file.txt` every 5 characters?
 - `-s`
 - `-w4`
 - `-w6`
-
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 author: Dral
 type: normal
-category: how to
+category: how-to
 tags:
   - promises
   - functional programming
@@ -9,6 +9,16 @@ tags:
   - introduction
   - workout
   - deep
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: relative
 ---
 
 # Transform values into promises
@@ -108,3 +118,4 @@ element.addEventListener('click', () => {
 - Listener 1; Listener 2; Microtask 1; Microtask 2;
 - Microtask 1; Listener 1; Microtask 2; Listener 2;
 - Microtask 2; Listener 2; Microtask 1; Listener 1;
+ 

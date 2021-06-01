@@ -1,23 +1,28 @@
 ---
 author: Stefan-Stojanovic
-
 type: normal
-
 category: must-know
-
 stub: true
-
 tags:
   - deep
-
 links:
   - >-
     [HTML <time>
     Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time){documentation}
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
-# Intro `<time>`
+# The time Element
+
 
 ---
 
@@ -163,13 +168,16 @@ Write the code to properly declare the date:
 - /date
 - /datetime
 
+
 ---
 
 ## Revision
 
 What HTML element is used to make dates & times machine-readable?
 
+```html
 ???
+```
 
 When using the `<time>` element, what attribute is used to declare the machine-readable date?
 
@@ -195,7 +203,12 @@ When using the `<time>` element, what attribute is used to declare the machine-r
 
 ## Quiz
 
-### How much do you know about the <time> element?
+### How much do you know about the 
+
+<time>
+
+ element?
+
 
 Match the appropriate datetime attributes:
 

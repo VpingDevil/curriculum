@@ -1,7 +1,7 @@
 ---
 author: tuwidc
 type: normal
-category: how to
+category: how-to
 tags:
   - linux
   - terminal
@@ -11,6 +11,10 @@ tags:
   - ImageMagic
 links:
   - '[www.imagemagick.org](http://www.imagemagick.org/Usage/){website}'
+revisionQuestion:
+  formats:
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Image manipulation using `convert`
@@ -44,8 +48,7 @@ The above will resize the *height*[2] to 250, *rotate* the picture 90 degrees to
 Use the `convert` command to resize the height of `enki.png` to `200` and rename it `newEnki.jpg`:
 
 ```bash
-??? enki.png ???
-  ??? newEnki.jpg
+??? enki.png ??? ??? newEnki.jpg
 ```
 
 - `convert`

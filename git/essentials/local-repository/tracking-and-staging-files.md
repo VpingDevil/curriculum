@@ -2,11 +2,20 @@
 author: catalin
 type: normal
 category: must-know
-inAlgoPool: false
 links:
   - >-
     [Recording Changes To The
     Repository](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Tracking and Staging files

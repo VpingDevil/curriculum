@@ -6,6 +6,14 @@ links:
   - '[en.wikipedia.org](https://en.wikipedia.org/wiki/HTTP_pipelining){website}'
   - >-
     [brianbondy.com](https://brianbondy.com/blog/119/what-you-should-know-about-http-pipelining){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # HTTP pipelining
@@ -30,7 +38,7 @@ HTTP pipelining requires both the *client* and the *server* to support it. Any s
 
 ## Practice
 
-??? and `PATCH` requests shouldn't be pipelined.
+??? and `PATCH` requests shouldn't be sent on a single `TCP` connection.
 
 - `POST`
 - `GET`
@@ -42,9 +50,7 @@ HTTP pipelining requires both the *client* and the *server* to support it. Any s
 
 ## Revision
 
-HTTP pipelining means exchanging multiple messages on the same
-
-???
+HTTP pipelining means exchanging multiple messages on the same ???
 
 - TCP connection
 - HTTP connection
@@ -58,4 +64,3 @@ HTTP pipelining means exchanging multiple messages on the same
 
 [1:idempotent]
 In Computer Science, the term **idempotent** is used to describe an operation that will produce the same result if executed once or multiple times.
- 

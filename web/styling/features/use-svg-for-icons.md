@@ -1,12 +1,20 @@
 ---
 author: jordanfish
 type: normal
-category: best practice
+category: best-practice
 links:
   - '[CSS Pro Tips](https://github.com/AllThingsSmitty/css-protips){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
-# Use `SVG` for icons
+# Use SVG for icons
 
 
 ---

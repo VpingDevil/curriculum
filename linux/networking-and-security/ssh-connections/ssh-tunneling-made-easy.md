@@ -7,6 +7,14 @@ tags:
   - tunneling
   - proxy
 notes: ''
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # SSH tunneling made easy

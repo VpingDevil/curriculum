@@ -7,6 +7,11 @@ links:
     [docs.oracle.com](https://docs.oracle.com/javase/specs/jls/se7/html/jls-17.html){website}
 notes: >-
   https://insights.enki.com/#/contrib/others/55f02923f457f33b00621148?search=khandelwalrinki
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # `Thread.sleep` and `Thread.yield` do not have synchronization mechanisms

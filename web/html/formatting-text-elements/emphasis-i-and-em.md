@@ -5,7 +5,16 @@ category: must-know
 stub: true
 tags:
   - introduction
-links: null
+
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Italic & Emphasis
@@ -153,21 +162,29 @@ Mark the false statement about the `<em>` element.
 - `/i`
 - `em`
 - `/em`
-- Nested `<em>`s will appear in CAPS by default.
+- `Nested <em>s will appear in CAPS by default.`
 - `strong`
 - `/strong`
-- Greater degree of emphasis is made on nested `<em>`s.
-- `em > em` in CSS will style nested `<em>` elements.
-- `<em>`s and nested `<em>`s will display the exact same by default.
+- `Greater degree of emphasis is made on nested <em>s.`
+- `em > em in CSS will style nested <em> elements.`
+- `<em>s and nested <em>s will display the exact same by default.`
 
 
 ---
 
 ## Revision
 
-When text is being read by a person (or software) to add emphasis to the pronunciation, use: ???
+When text is being read by a person (or software) to add emphasis to the pronunciation, use:
 
-When emphasis is needed for a foreign word, a fictional character's thoughts, or when the text refers to the definition of a word instead of representing its semantic meaning, use: ???
+```html
+???
+```
+
+When emphasis is needed for a foreign word, a fictional character's thoughts, or when the text refers to the definition of a word instead of representing its semantic meaning, use:
+
+```html
+???
+```
 
 - `<em>`
 - `<i>`

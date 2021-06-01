@@ -6,6 +6,14 @@ links:
   - >-
     [SQL Tutorial:
     WHERE](http://www.sql-tutorial.com/sql-where-sql-tutorial/){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # WHERE with AND
@@ -62,7 +70,8 @@ Select all the columns and rows from the `pokemon` table where the `level` is le
 ```sql
 SELECT * 
 FROM pokemon
-WHERE ??? 10 AND ??? 'Bugsy';
+WHERE ??? 10 AND 
+  ??? 'Bugsy';
 ```
 
 - level <

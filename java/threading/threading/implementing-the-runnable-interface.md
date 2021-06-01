@@ -1,7 +1,7 @@
 ---
 author: nickdaminov
 type: normal
-category: how to
+category: how-to
 links:
   - >-
     [More on Runnable
@@ -12,6 +12,14 @@ links:
   - >-
     [More on Overriding
     `.start()`](http://www.javamadesoeasy.com/2015/03/what-will-happen-if-we-override-start.html){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Implementing the Runnable Interface
@@ -21,7 +29,7 @@ links:
 
 ## Content
 
-One way of creating a thread is to implement a `Runnable` interface which implies that you have to implement `public void run()` function. As we are implementing an interface, we create a `runnable` object and not a `thread` itself. Meaning that the `counter` object in the following example is not a `thread` and doesn't implement a `start()`. Of course we can call `run()` explicitly on two or more instances of the `CustomRunnable` class but then they will not be concurrent and will run in order specified.
+One way of creating a thread is to implement a `Runnable` interface which implies that you have to implement `public void run()` function. As we are implementing an interface, we create a `runnable` object and not a `thread` itself. Meaning that the `counter` object in the following example is not a `thread` and doesn't implement a `start()`. We can call `run()` explicitly on two or more instances of the `CustomRunnable` class but then they will not be concurrent and will run in order specified.
 
 The most simple example would be:
 
@@ -124,4 +132,4 @@ When implementing a `runnable` interface do we create a thread?
 ???
 
 - No, we create a runnable object that has to be passed to an instance of a Thread
-- Yes, we can call `start()` on it straight away as it is a runnable thread.
+- `Yes, we can call start() on it straight away as it is a runnable thread.`

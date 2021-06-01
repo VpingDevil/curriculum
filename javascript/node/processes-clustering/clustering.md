@@ -1,13 +1,23 @@
 ---
 author: catalin
 type: normal
-category: how to
+category: how-to
 tags:
   - workout
   - deep
 links:
   - >-
     [codeforgeek.com](https://codeforgeek.com/2014/12/cluster-node-js-performance/){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Clustering
@@ -70,7 +80,9 @@ Identify if the code is executed by the master process:
 
 ```javascript
 var cluster = require('cluster');
+
 if(cluster.???){
+  // ...
 };
 ```
 

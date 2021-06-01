@@ -1,22 +1,27 @@
 ---
 author: alexjmackey
-
 type: normal
-
 category: must-know
-
 tags:
   - introduction
   - es6
   - memory
-
 links:
   - >-
     [MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/const){website}
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Const (Part 2)
+
 
 ---
 
@@ -62,6 +67,7 @@ p.first = "bob";
 
 If you do not want anyone to be able to modify the object at all be sure to use `Object.freeze`[1] function.
 
+
 ---
 
 ## Practice
@@ -71,6 +77,7 @@ Fill in the gaps of the following code such that the output of the log statement
 ```javascript
 const ??? = {
   pi: 3.14,
+  piExtended: 3.141,
   e: 2.71
 }
 
@@ -113,7 +120,7 @@ console.log(foo.bar)
 - will log 'enki'
 - will log 'baz'
 - will raise an error
-- will log `null`
+- will log null
 
 
 ---
@@ -123,3 +130,4 @@ console.log(foo.bar)
 [1:`Object.freeze`]
 For more information on *Object.freeze* see (MDN)
 [https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Object/freeze]
+ 

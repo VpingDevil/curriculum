@@ -2,6 +2,14 @@
 author: mihaiberq
 type: normal
 category: must-know
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Prim's Algorithm Iteration
@@ -54,9 +62,7 @@ A, D, C, E
 
 The next edge to be picked is:
 
-```plain-text
 ???
-```
 
 - `AB`
 - `AC`
@@ -75,4 +81,3 @@ Prim's algorithm uses
 - a dynamic approach
 - a divide and conquer approach
 - no particular approach
- 

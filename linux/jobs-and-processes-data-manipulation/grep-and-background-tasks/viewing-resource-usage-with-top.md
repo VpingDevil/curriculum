@@ -2,7 +2,14 @@
 author: jfarmer
 type: normal
 category: must-know
-inAlgoPool: false
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Viewing Resource Usage With `top`
@@ -38,7 +45,7 @@ You can read `man top` to learn about all the ways to configure the display.  On
 
 In contrast to `ps` , `top` displays processes
 
-??? .
+???
 
 - in real time
 - as a snapshot
@@ -59,4 +66,3 @@ To display the processes running in real time, you would use
 - ps
 - ms
 - procstat
- 

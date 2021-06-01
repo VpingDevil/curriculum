@@ -2,6 +2,14 @@
 author: mihaiberq
 type: normal
 category: tip
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Testing Private Methods and Fields

@@ -6,9 +6,17 @@ links:
   - >-
     [HTML <aside>
     Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
-# The `<aside>` Element
+# The aside Element
 
 
 ---
@@ -48,7 +56,7 @@ What content would be well placed within an aside?
 - pull quotes
 - sidebar
 - advertising
-- groups of `<nav>` elements
+- `groups of <nav> elements`
 
 
 ---

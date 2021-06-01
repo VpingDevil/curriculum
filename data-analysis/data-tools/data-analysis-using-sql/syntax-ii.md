@@ -1,20 +1,28 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
 category: must-know
-
 links:
   - '[WHERE Clause](https://www.geeksforgeeks.org/sql-where-clause/){website}'
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
+
 # SQL Syntax II
 
+
 ---
+
 ## Content
 
 So we can select different columns and aggregate any numerical fields, but what if we only want to select data where a certain condition is true?
@@ -31,10 +39,9 @@ WHERE title = "Pulp Fiction"
 
 It returns a table with two columns - the `year` and `title` of any movies that match the exact name "Pulp Fiction".
 
-| year | title                         |
-|------|-------------------------------|
-| 1994 | Pulp Fiction                  |
-
+| year | title        |
+| ---- | ------------ |
+| 1994 | Pulp Fiction |
 
 Currently, our `WHERE` filter is pretty strict as the results must match whatever is inside the `" "`. 
 
@@ -48,7 +55,7 @@ AND title = "%Harry Potter%"
 ```
 
 | year | title                                    |
-|------|------------------------------------------|
+| ---- | ---------------------------------------- |
 | 2001 | Harry Potter and the Philosopher's Stone |
 | 2002 | Harry Potter and the Chamber of Secrets  |
 | 2004 | Harry Potter and the Prisoner of Azkaban |
@@ -73,7 +80,9 @@ This will reverse the order of the results.
 
 If you don't include the keywords `DESC` or `ASC` then `ORDER BY` will automatically sort the data by `ASC`, ascending order.
 
+
 ---
+
 ## Practice
 
 Complete the following query to return all students that are born before the year 2000 and have a first name beginning with the letter 'A':
@@ -92,7 +101,9 @@ FROM students
 - >
 - OR
 
+
 ---
+
 ## Revision
 
 Complete the following query to return all cities that have a population greater than 1 million and are in Europe:
@@ -110,4 +121,3 @@ FROM cities
 - =
 - <
 - OR
- 

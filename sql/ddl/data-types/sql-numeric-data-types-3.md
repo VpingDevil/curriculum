@@ -18,6 +18,15 @@ links:
   - >-
     [ANSI Standard Data
     Types](https://en.wikibooks.org/wiki/Structured_Query_Language/Data_Types){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Date and Booleans

@@ -12,9 +12,18 @@ links:
   - >-
     [MDN Docs on
     flex-shrink](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-shrink){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
-# Using `flex-shrink`
+# Using flex-shrink
 
 
 ---
@@ -79,7 +88,9 @@ Elements of which class will shrink three times as much as the largest one?
 }
 ```
 
-???
+```css
+.???
+```
 
 - flex1
 - flex3

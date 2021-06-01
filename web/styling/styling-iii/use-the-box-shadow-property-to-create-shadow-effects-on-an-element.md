@@ -12,9 +12,17 @@ links:
   - >-
     [MDN Docs on Box
     Shadow](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
-# Use the `box-shadow` property to create shadow effects on an element
+# Use the box-shadow property to create shadow effects on an element
 
 
 ---
@@ -52,7 +60,7 @@ You can see below the difference. The second square has `inset` shadowing:
 
 The first two parameters in the following code snippet are the ??? of the shadow.
 
-```plain-text
+```css
 div {
   box-shadow: 4px 4px 2px red;
 }

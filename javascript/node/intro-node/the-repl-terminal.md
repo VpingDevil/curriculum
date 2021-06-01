@@ -7,6 +7,14 @@ tags:
 links:
   - >-
     [tutorialsteacher.com](http://www.tutorialsteacher.com/nodejs/nodejs-console-repl){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # The REPL Terminal
@@ -69,6 +77,7 @@ node
 ## Revision
 
 What does REPL stand for?
+
 ???
 
 - Read, Eval, Print, Loop

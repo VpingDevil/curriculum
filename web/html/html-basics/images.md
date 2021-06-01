@@ -6,6 +6,11 @@ links:
   - >-
     [HTML <img>
     Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img){documentation}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Images

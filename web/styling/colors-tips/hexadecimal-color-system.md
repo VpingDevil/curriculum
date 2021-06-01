@@ -7,6 +7,15 @@ tags:
   - colour
 links:
   - '[Scrimba CSS Colors](https://scrimba.com/p/pWvwCg/cMMymu2){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Hexadecimal color system
@@ -35,7 +44,12 @@ Hexadecimal runs from `0` to `F`
 
 ## Practice
 
-Hexadecimal numbers run from 0 to ???, and from A to ???.
+Hexadecimal numbers run from:
+
+```plain-text
+0 to ???
+A to ???
+```
 
 - `9`
 - `F`
@@ -53,7 +67,6 @@ Which of these hexadecimal colors are not the same?
 
 ???
 
-- #FFFFF and #FFF
-- #FFF and #FFFFFF
-- #FFC125 and #ffc125
- 
+- `#FFFFF and #FFF`
+- `#FFF and #FFFFFF`
+- `#FFC125 and #ffc125`

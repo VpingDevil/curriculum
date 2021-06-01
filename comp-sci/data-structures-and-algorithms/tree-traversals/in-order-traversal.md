@@ -2,6 +2,14 @@
 author: mihaiberq
 type: normal
 category: must-know
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # In-order Traversal
@@ -107,4 +115,3 @@ its nodes in ascending order?
 - Breadth first traversal
 - Depth first traversal
 - Post-order traversal
- 

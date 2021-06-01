@@ -2,12 +2,21 @@
 author: alexjmackey
 type: normal
 category: must-know
-inAlgoPool: false
 links:
   - '[ponyfoo.com](https://ponyfoo.com/articles/es6-maps-in-depth){website}'
   - >-
     [MDN -
     Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Map (data structure)
@@ -129,3 +138,4 @@ console.log(myMap)
 - empty()
 - set()
 - add()
+ 

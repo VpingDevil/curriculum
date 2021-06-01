@@ -9,6 +9,14 @@ links:
   - >-
     [Difference between Cellpadding &
     Cellspacing](http://www.htmlcodetutorial.com/tables/index_famsupp_29.html){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Controlling cellpadding and cellspacing in CSS

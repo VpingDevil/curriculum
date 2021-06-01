@@ -5,6 +5,14 @@ category: feature
 links:
   - >-
     [developers.google.com](https://developers.google.com/web/updates/2015/04/permissions-api-for-the-web){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Permission API
@@ -48,7 +56,9 @@ This API's availability is limited to some specific browsers. To ensure that you
 
 ## Practice
 
-How do you check the status of a permission? ???
+How do you check the status of a permission? 
+
+???
 
 - `permissions.query();`
 - `permissions.status();`
@@ -70,3 +80,4 @@ Which of the following is a valid service for checking Permissions API browser c
 - NPM
 - GitHub
 - DockerHub
+ 

@@ -1,15 +1,23 @@
 ---
 author: jordanfish
 type: normal
-category: how to
+category: how-to
 links:
   - '[CSS Pro Tips](https://github.com/AllThingsSmitty/css-protips){website}'
   - >-
     [MDN Docs on
     :not](https://developer.mozilla.org/en-US/docs/Web/CSS/:not){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
-# Use `:not()` to apply/unapply styles
+# Use :not() to apply/unapply styles
 
 
 ---

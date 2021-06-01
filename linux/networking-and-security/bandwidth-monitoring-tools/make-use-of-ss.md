@@ -1,11 +1,19 @@
 ---
 author: catalin
 type: normal
-category: how to
+category: how-to
 links:
   - >-
     [Example of ss
     capabilities](http://www.binarytides.com/linux-ss-command/){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Make use of `ss`
@@ -91,9 +99,7 @@ u_seq ESTAB  0      0     @0001c 30591
 
 ## Practice
 
-The explicit number of TCP connections is part of
-
-???'s output.
+The explicit number of TCP connections is part of ???'s output.
 
 - `ss -s`
 - `ss -a`

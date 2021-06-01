@@ -3,12 +3,21 @@ author: shoutmatt
 type: normal
 category: must-know
 stub: true
-links: null
+
 tags:
   - deep
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
-# Intro `<wbr>`
+# The wbr Element
 
 
 ---
@@ -63,10 +72,10 @@ Mark the true statement regarding the `<wbr>` element.
 
 ???
 
-- `<wbr>` refers to 'line break opportunity'.
-- `<wbr>` stands for 'Will Break Rows'.
-- `<wbr>` will force a line break.
-- `<wbr>` works best with a very long sentence.
+- `<wbr> refers to 'line break opportunity'.`
+- `<wbr> stands for 'Will Break Rows'.`
+- `<wbr> will force a line break.`
+- `<wbr> works best with a very long sentence.`
 
 
 ---

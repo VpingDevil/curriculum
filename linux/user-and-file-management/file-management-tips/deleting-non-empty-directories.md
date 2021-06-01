@@ -10,10 +10,19 @@ tags:
   - non empty
   - workout
   - introduction
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Deleting non-empty directories
-
 
 ---
 
@@ -59,7 +68,6 @@ You can use letters `-f`, `-r`, `-v`:
 
 `-v` = to explain what is being done.
 
-
 ---
 
 ## Practice
@@ -75,7 +83,6 @@ Complete the command to remove `old_folder` and print the name of each deleted f
 - `-r`
 - `-v`
 - `-rm`
-
 
 ---
 

@@ -1,10 +1,14 @@
 ---
 author: nene
 type: normal
-category: how to
+category: how-to
 tags:
   - passwords
   - workout
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Best password generation utilities
@@ -47,9 +51,7 @@ That would create numerical-only, four digit long passwords (think PIN codes).
 
 ## Revision
 
-Out of the following, the tool that is *not* helpful if you want to generate passwords is 
-
-???.
+Out of the following, the tool that is *not* helpful if you want to generate passwords is ???
 
 - `xargs`
 - `apg`

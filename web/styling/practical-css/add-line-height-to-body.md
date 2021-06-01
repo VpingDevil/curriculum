@@ -1,15 +1,19 @@
 ---
 author: jordanfish
 type: normal
-category: how to
+category: how-to
 links:
   - '[CSS Pro Tips](https://github.com/AllThingsSmitty/css-protips){website}'
   - >-
     [MDN Docs on Line
     Height](https://developer.mozilla.org/en-US/docs/Web/CSS/line-height){documentation}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
-# Add `line-height` to `body`
+# Add line-height to body
 
 
 ---

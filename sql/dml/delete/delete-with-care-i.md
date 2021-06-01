@@ -1,17 +1,23 @@
 ---
 author: kapnobatai136
-
 type: normal
-
 category: must-know
-
 tags:
   - delete
   - syntax
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Delete With Care I
+
 
 ---
 
@@ -40,6 +46,7 @@ DELETE FROM
 WHERE TRUE;
 ```
 
+
 ---
 
 ## Practice
@@ -57,6 +64,7 @@ Complete the query to delete **all the records** from the `backup_logs` table:
 - REMOVE
 - WHERE id >=1
 - DELETE backup_logs
+
 
 ---
 
@@ -85,6 +93,7 @@ DELETE FROM
 - Desmond
 - All
 
+
 ---
 
 ## Footnotes
@@ -93,6 +102,6 @@ DELETE FROM
 Here is how the `favorite_fruits` table looked like where we left off:
 
 | id | fruit      |
-|----|------------|
+| -- | ---------- |
 | 1  | Strawberry |
 | 2  | Raspberry  |

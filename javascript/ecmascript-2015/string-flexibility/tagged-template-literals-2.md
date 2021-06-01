@@ -2,7 +2,6 @@
 author: lizTheDeveloper
 type: normal
 category: feature
-inAlgoPool: false
 tags:
   - workout
   - es6
@@ -11,6 +10,15 @@ tags:
 links:
   - >-
     [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Tagged Template Literals
@@ -131,3 +139,4 @@ console.log(
 - processNumber()
 - this.processNumber(
 - String.template(processNumber
+ 

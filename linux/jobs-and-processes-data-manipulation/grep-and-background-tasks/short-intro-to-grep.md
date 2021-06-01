@@ -8,9 +8,17 @@ tags:
   - regex
   - intro
 notes: ''
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
-# Short intro to `grep`
+# Short intro to grep
 
 
 ---

@@ -1,7 +1,7 @@
 ---
 author: tuwidc
 type: normal
-category: how to
+category: how-to
 tags:
   - linux
   - apropos
@@ -11,6 +11,14 @@ tags:
   - find
   - null
   - workout
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Find any Unix / Linux command
@@ -69,9 +77,7 @@ install-sgmlcatalog (8) - maintain
 
 ## Revision
 
-`apropos`  allows you to search through
-
-??? .
+`apropos`  allows you to search through ???
 
 - commands’ description
 - users

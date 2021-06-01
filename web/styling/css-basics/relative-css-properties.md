@@ -2,9 +2,16 @@
 author: mihaiberq
 type: normal
 category: must-know
-inAlgoPool: false
 links:
   - '[Scrimba CSS Length Units](https://scrimba.com/p/pWvwCg/cGLEnHg){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Relative CSS properties

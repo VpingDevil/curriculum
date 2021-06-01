@@ -6,6 +6,14 @@ links:
   - >-
     [More Query
     Languages](https://en.wikipedia.org/wiki/Query_language){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # What is SQL?

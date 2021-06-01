@@ -2,11 +2,18 @@
 author: milesflo
 type: normal
 category: must-know
-inAlgoPool: false
 links:
   - >-
     [SANS
     Institute](https://www.sans.org/reading-room/whitepapers/protocols/applying-osi-layer-network-model-information-security-1309){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Securing the Application Layer
@@ -28,6 +35,7 @@ Finally, **YOU are responsible for your security**. Do not run unfamiliar progra
 ## Practice
 
 What is one control in the Application Layer of the OSI Model?
+
 ???
 
 - Utilizing a testing suite in software development
@@ -63,4 +71,3 @@ What is one control in the Application Layer of the OSI Model?
 - Strict use of ports as they are designed
 - Use of a physical firewall
 - Using managed switches prevent topographical loops
- 

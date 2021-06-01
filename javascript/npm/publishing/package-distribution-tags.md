@@ -1,11 +1,21 @@
 ---
 author: catalin
 type: normal
-category: how to
+category: how-to
 links:
   - '[docs.npmjs.com](https://docs.npmjs.com/cli/dist-tag){website}'
 tags:
   - workout
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Package distribution tags

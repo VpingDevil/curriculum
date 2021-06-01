@@ -4,9 +4,18 @@ type: normal
 category: caveats
 links:
   - '[CSS Trick](https://gist.github.com/sodevious/b87dbedb721624338b04){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
-# Debug with the `*` selector
+# Debug with the * selector
 
 
 ---
@@ -36,7 +45,9 @@ This is how 3 nested `div`s would look:
 
 Which selector is used to select every element of a page so styles can be applied?
 
+```css
 ???
+```
 
 - `*`
 - `+`

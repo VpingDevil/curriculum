@@ -1,4 +1,4 @@
-﻿---
+---
 author: Stefan-Stojanovic
 
 aspects:
@@ -6,7 +6,7 @@ aspects:
 
 type: normal
 
-category: how to
+category: how-to
 
 ---
 

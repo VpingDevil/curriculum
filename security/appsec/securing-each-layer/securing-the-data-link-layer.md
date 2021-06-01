@@ -2,11 +2,18 @@
 author: milesflo
 type: normal
 category: must-know
-inAlgoPool: false
 links:
   - >-
     [SANS
     Institute](https://www.sans.org/reading-room/whitepapers/protocols/applying-osi-layer-network-model-information-security-1309){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Securing the Data Link Layer
@@ -18,7 +25,7 @@ links:
 
 The Data Link Layer facilitates the transfer of data around a LAN network with protocols like [ARP](https://en.wikipedia.org/wiki/Address_Resolution_Protocol). As a quick reminder, ARP is responsible for identifying and associating IP addresses of network nodes with their MAC addresses. The ARP protocol is critical for ensuring that information anywhere higher up in the OSI Model reaches the correct endpoint, and as such attracts the attention of hackers.
 
-**ARP Spoofing** involves changing a device's factory-assigned MAC address to impersonate another node on the network. Doing so tricks the ARP protocol to deliver frames to the impersonator device instead of the original sender. The impersonating device can then perform more sophisticated attacks once this identity theft is achieved, such as denial of service, man-in-the-middle attacks, or session hijacking.
+**ARP Spoofing** involves sending misleading ARP messages to impersonate another node on the network. Doing so tricks the ARP protocol to deliver frames to the impersonator device instead of the original sender. The impersonating device can then perform more sophisticated attacks once this identity theft is achieved, such as denial of service, man-in-the-middle attacks, or session hijacking.
 
 Once a hacker is inside the network MAC addresses are easy to find, and this vulnerability becomes trivial to exploit. Controls for this vulnerability include **MAC Address Filtering**: setting up a whitelist of MAC addresses that can gain access to the networks, and using Ethernet switches that integrate ARP-Spoofing detection software.
 
@@ -30,6 +37,7 @@ Another critical vulnerability to the Data Link Layer is the **packet storm**. A
 ## Practice
 
 What is one control in the Data Link Layer of the OSI Model?
+
 ???
 
 - Using managed switches prevent topographical loops
@@ -68,4 +76,3 @@ What is one control in the Data Link Layer of the OSI Model?
 - Locks and secure enclosures
 - Use of a physical firewall
 - Encrypted password exchange and storage
- 

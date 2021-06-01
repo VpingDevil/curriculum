@@ -9,9 +9,14 @@ links:
   - >-
     [A Demo of APL from
     1975](https://www.youtube.com/watch?v=_DTpQ4Kk2wA){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
-# The `itertools` Module
+# The itertools Module
 
 
 ---

@@ -5,6 +5,14 @@ tags:
   - workout
   - deep
 category: tip
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Master Processes and Worker Processes

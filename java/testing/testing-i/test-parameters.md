@@ -10,6 +10,15 @@ links:
     [java2novice.com](http://java2novice.com/junit-examples/junit-annotations/){website}
   - >-
     [javarevisited.blogspot.gr](http://javarevisited.blogspot.gr/2012/06/junit4-annotations-test-examples-and.html){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # `@Test` parameters
@@ -44,7 +53,7 @@ When a test needs to complete within a specific time period, we can add a parame
 
 ## Practice
 
-Complete the snippet such that the test expects an `IOException`  and has a timeout of `900ms` :
+Complete the snippet such that the test expects an `IOException` and has a timeout of `900ms` :
 
 ```java
 @???(

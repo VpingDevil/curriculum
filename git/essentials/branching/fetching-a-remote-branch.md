@@ -6,6 +6,16 @@ links:
   - >-
     [Remote Branches Official
     Documentation](http://git-scm.com/book/en/v2/Git-Branching-Remote-Branches){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Fetching a remote branch
@@ -66,4 +76,3 @@ git ???
 - `merge`
 - `commit`
 - `master`
- 

@@ -1,18 +1,26 @@
 ﻿---
 author: Stefan-Stojanovic
-
 type: normal
-
-category: how to
-
+category: how-to
 links:
   - '[TO_PERCENT](https://support.google.com/docs/answer/3094284){documentation}'
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # TO_PERCENT
 
+
 ---
+
 ## Content
 
 The `=TO_PERCENT` function is used to convert a number to a percentage.
@@ -58,10 +66,12 @@ Here are a few more examples:
 
 ![percentage-examples](https://img.enkipro.com/54b3edceb7c560c5390324103ae353b3.png)
 
+
 ---
+
 ## Practice
 
-Fill in the gaps such that the result is `87%`.
+Fill in the gaps to transform a number into `87%`.
 
 ```plain-text
 =??????
@@ -73,14 +83,25 @@ Fill in the gaps such that the result is `87%`.
 - (87)
 - TOPERCENT
 
+
 ---
+
 ## Revision
 
-Which of these converts a number to 54%?
+Which of these cells converts a number to 54%?
 
-???
+| Cell | Function           |
+|------|--------------------|
+|  A1  | =TO_PERCENT(54)    |
+|  A2  | =TO_PERCENT(0.54)  |
+|  A3  | =TO_PERCENT(5.4)   |
+|  A4  | =TO_PERCENT(0.054) |
 
-- =TO_PERCENT(0.54)
-- =TO_PERCENT(54)
-- =TO_PERCENT(5.4)
-- =TO_PERCENT(0.054)
+```plain-text
+A???
+```
+
+- 2
+- 1
+- 4
+- 3

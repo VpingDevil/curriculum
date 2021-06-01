@@ -11,9 +11,19 @@ links:
   - >-
     [MDN Docs on Ordering Flex
     Items](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Ordering_Flex_Items){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
-# Flexbox `order`
+# Flexbox order
 
 
 ---
@@ -55,7 +65,7 @@ Altered order: 3.5.1.2.4
 
 ## Practice
 
-If `order` accepts negative values,  for the same 5 list items, with the following ordering, which one do you think will be the first displayed?
+If `order` accepts negative values, for the same 5 list items, with the following ordering, which one do you think will be the first displayed?
 
 ```css
 .flex-item:nth-of-type(1) {order: 3;}
@@ -65,13 +75,15 @@ If `order` accepts negative values,  for the same 5 list items, with the followi
 .flex-item:nth-of-type(5) {order: 2;}
 ```
 
-???
+```plain-text
+Box ???
+```
 
-- Box 2
-- Box 1
-- Box 3
-- Box 4
-- Box 5
+- 2
+- 1
+- 3
+- 4
+- 5
 
 
 ---
@@ -89,7 +101,9 @@ Take 6 boxes originally ordered 1, 2, 3, 4, 5 and 6. What order are the boxes af
 .flex-item:nth-of-type(6) { order: 1; )
 ```
 
+```plain-text
 ???, ???, ???, ???, ???, ???
+```
 
 - 6
 - 1

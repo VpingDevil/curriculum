@@ -6,6 +6,16 @@ links:
   - >-
     [Article on List
     Functions](http://sass-lang.com/documentation/Sass/Script/Functions.html#list-functions){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Strings in SassScript

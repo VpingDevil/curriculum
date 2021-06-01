@@ -6,6 +6,15 @@ links:
   - >-
     [Clean Up Old Remote Tracking
     References](https://github.com/jbranchaud/til/blob/master/git/clean-up-old-remote-tracking-references.md){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Prune remote tracking references

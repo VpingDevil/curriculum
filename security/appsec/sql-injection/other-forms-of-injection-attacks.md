@@ -4,8 +4,15 @@ type: normal
 category: pattern
 links:
   - >-
-    [Testing for Command Injection (OTG-INPVAL-013)
-    ](https://www.owasp.org/index.php/Testing_for_Command_Injection_(OTG-INPVAL-013)){website}
+    [Testing for Command Injection (OTG-INPVAL-013)](https://wiki.owasp.org/index.php/Testing_for_Command_Injection_(OTG-INPVAL-013)){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Other forms of Injection attacks
@@ -44,9 +51,9 @@ http://sensitive/cgi-bin/
 userData.pl?doc=???
 ```
 
-- /bin/ls|
-- ;ls|
-- ;$bash% ls .
+- `/bin/ls|`
+- `;ls|`
+- `;$bash% ls .`
 
 
 ---
@@ -59,7 +66,6 @@ Modify the URL to execute `;cat /etc/passwd`
 http://sensitive/something.php?dir=???
 ```
 
-- %3Bcat%20/etc/passwd
-- ;cat /etc/passwd
-- ;$bash% cat /etc/passwd
- 
+- `%3Bcat%20/etc/passwd`
+- `;cat /etc/passwd`
+- `;$bash% cat /etc/passwd`

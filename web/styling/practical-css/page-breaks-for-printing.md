@@ -1,12 +1,16 @@
 ---
 author: catalin
 type: normal
-category: how to
+category: how-to
 links:
   - >-
     [MDN Docs on
     Positioning](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Positioning){documentation}
   - '[Advanced CSS Printing](https://davidwalsh.name/css-page-breaks){website}'
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Page breaks for printing

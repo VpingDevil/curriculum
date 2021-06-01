@@ -9,6 +9,10 @@ tags:
 links:
   - >-
     [docs.oracle.com](https://docs.oracle.com/javase/tutorial/essential/io/fileAttr.html){website}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Metadata: setting a file's owner
@@ -39,7 +43,7 @@ Files.setOwner(file, owner);
 
 ## Revision
 
-Create a new instance of  `UserPrincipal` for the username `tom`:
+Create a new instance of `UserPrincipal` for the username `tom`:
 
 ```java
 UserPrincipal owner = 

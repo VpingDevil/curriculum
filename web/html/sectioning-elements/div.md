@@ -9,9 +9,18 @@ links:
   - >-
     [W3S: <div>
     Element](https://www.w3schools.com/tags/tag_div.asp){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
-# The `<div>` element
+# The div element
 
 
 ---
@@ -107,14 +116,16 @@ Which HTML element is best used here?
 </body>
 ```
 
+```html
 TAG: ???
+```
 
-- `<div>`
-- `<main>`
-- `<aside>`
-- `<section>`
-- `<article>`
-- `<wrap>`
+- `div`
+- `main`
+- `aside`
+- `section`
+- `article`
+- `wrap`
 
 
 ---

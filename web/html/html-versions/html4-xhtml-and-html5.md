@@ -6,6 +6,10 @@ links:
   - >-
     [HTML
     Tutorials](https://developer.mozilla.org/en-US/docs/Web/HTML){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # HTML4, XHTML, & HTML5

@@ -1,9 +1,19 @@
 ---
 author: catalin
 type: normal
-category: how to
+category: how-to
 links:
   - '[github.com](https://github.com/expressjs/cookie-session){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # `cookie-session` in **Express**
@@ -60,7 +70,7 @@ Using `req.sessionOptions` one can get the current session options and change  t
 
 Import the needed module for implementing sessions in **Express** with the help of cookies:
 
-```plain-text
+```js
 var cookieSess = ???('???');
 ```
 
@@ -78,7 +88,7 @@ var cookieSess = ???('???');
 
 Import the needed module for implementing sessions in **Express** with the help of cookies:
 
-```plain-text
+```js
 var cookieSess = ???('???');
 ```
 

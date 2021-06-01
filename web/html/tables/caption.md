@@ -9,9 +9,18 @@ links:
   - >-
     [HTML <caption>
     Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/caption){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
-# The `<caption>` Element
+# The caption Element
 
 
 ---
@@ -92,7 +101,9 @@ tag4 = ???
 
 What HTML element represents the title of a table?
 
-???
+```html
+<???>
+```
 
 - caption
 - title

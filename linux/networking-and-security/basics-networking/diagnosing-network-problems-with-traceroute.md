@@ -2,10 +2,17 @@
 author: jfarmer
 type: normal
 category: must-know
-inAlgoPool: false
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
-# Diagnosing Network Problems With `traceroute`
+# Diagnosing Network Problems With traceroute
 
 
 ---
@@ -64,9 +71,7 @@ If the "bad hop" is internal to your network you know that it's a problem with y
 
 ## Practice
 
-If there is a *bad hop* right at the beginning, the most likely to blame is 
-
-???.
+If there is a *bad hop* right at the beginning, the most likely to blame is ???
 
 - your network
 - your ISP
@@ -78,9 +83,7 @@ If there is a *bad hop* right at the beginning, the most likely to blame is
 
 ## Revision
 
-If a particular connection is slow, you can check the *hops* of the packets between your machine and the destination’s machine using 
-
-??? .
+If a particular connection is slow, you can check the *hops* of the packets between your machine and the destination’s machine using ???
 
 - traceroute
 - netstat

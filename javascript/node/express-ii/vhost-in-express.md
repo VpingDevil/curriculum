@@ -1,9 +1,17 @@
 ---
 author: catalin
 type: normal
-category: how to
+category: how-to
 links:
   - '[github.com](https://github.com/expressjs/vhost){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # `vhost` in **Express**
@@ -54,7 +62,7 @@ Once the host is matched and the request sent to the handler, the `req.vhost` pr
 
 ## Revision
 
-What parameters does the `vhost` parameter need ?
+What parameters does the `vhost` parameter need?
 
 ```javascript
 vhost(???, ???);

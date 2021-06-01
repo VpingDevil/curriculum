@@ -8,6 +8,15 @@ links:
   - >-
     [SQL Tutorial:
     SELECT](http://www.sql-tutorial.com/sql-select-sql-tutorial/){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # SELECT Structure
@@ -70,6 +79,7 @@ Complete the query to select the `id` and `name` columns from the `pokemon` tabl
 - RETURN
 - id
 - pokemon
+
 
 ---
 

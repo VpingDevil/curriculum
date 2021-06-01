@@ -2,10 +2,19 @@
 author: alexjmackey
 type: normal
 category: must-know
-inAlgoPool: false
 links:
   - >-
     [ponyfoo.com](https://ponyfoo.com/articles/es6-math-additions-in-depth){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Math Extensions
@@ -87,3 +96,4 @@ Math.???
 - cubicRoot
 - cbRoot
 - cubicrt
+ 

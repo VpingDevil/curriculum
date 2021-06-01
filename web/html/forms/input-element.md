@@ -6,9 +6,19 @@ links:
   - >-
     [HTML <form>
     Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
-# The `<input>` Element
+# The input Element
 
 
 ---

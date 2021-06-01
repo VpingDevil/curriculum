@@ -6,6 +6,14 @@ tags:
   - introduction
 links:
   - '[nodejavascript.org](https://nodejs.org/en/){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # What is NodeJS?
@@ -30,6 +38,7 @@ Node can be used to build a variety of applications including single and multi-p
 ## Practice
 
 What can Node be used to create?
+
 ???
 
 - server-side applications
@@ -41,6 +50,7 @@ What can Node be used to create?
 ## Revision
 
 Is Node synchronous or asynchronous?
+
 ???
 
 - asynchronous
@@ -55,4 +65,3 @@ Is Node synchronous or asynchronous?
 Even though JavaScript is single threaded, V8 JavaScript engine is not. In order to resolve functions that would be holding back the main thread, Node sends those instructions to the engine through *APIs* and subscribes to an event that marks the end of the computation for that process, through an event loop.
 
 The result is then reintroduced into the JavaScript main runtime stack. This whole process is what makes the Node environment *asynchronous*.
- 

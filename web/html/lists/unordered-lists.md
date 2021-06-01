@@ -11,6 +11,15 @@ links:
   - >-
     [CSS list style type
     Property](https://www.w3schools.com/cssref/pr_list-style-type.asp){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Unordered Lists
@@ -102,8 +111,10 @@ Complete the HTML code to create a bulleted list.
 </A>
 ```
 
+```plain-text
 A: ???
 B: ???
+```
 
 - `ul`
 - `li`

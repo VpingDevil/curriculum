@@ -6,6 +6,10 @@ links:
   - >-
     [Article on
     @extend](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#extend){website}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Sass Extend/Inheritance
@@ -50,9 +54,13 @@ The code in CSS that this generates:
 
 ## Revision
 
-Which is the correct way to use Sass @extend to extend the class *properties*? ???
+Which is the correct way to use Sass @extend to extend the class *properties*?
 
-- @extend .properties;
-- properties(@extend);
-- @extend(properties);
-- extend .properties;
+```css
+???
+```
+
+- `@extend .properties;`
+- `properties(@extend);`
+- `@extend(properties);`
+- `extend .properties;`

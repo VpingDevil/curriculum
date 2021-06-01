@@ -6,6 +6,16 @@ links:
   - >-
     [Creating
     Hyperlinks](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Hyperlinks
@@ -68,7 +78,11 @@ Complete the following snippet in order for it to be valid:
 
 ## Revision
 
-The tag denoting a hyperlink is ???.
+The tag denoting a hyperlink is:
+
+```html
+???
+```
 
 - `<a>`
 - `<p>`

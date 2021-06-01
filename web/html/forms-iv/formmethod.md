@@ -2,10 +2,19 @@
 author: Stefan-Stojanovic
 type: normal
 category: must-know
-links: null
+
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
-# The `formmethod` Attribute
+# The formmethod Attribute
 
 
 ---
@@ -77,7 +86,9 @@ post : ???
 
 Which input form attribute specifies the HTTP method to use when the form is submitted?
 
+```html
 ???
+```
 
 - method
 - http

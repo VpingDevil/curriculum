@@ -1,7 +1,7 @@
 ---
 author: Mathieu
 type: normal
-category: best practice
+category: best-practice
 links:
   - >-
     [Browser Availability for
@@ -9,9 +9,13 @@ links:
   - >-
     [Keep CSS Short with
     currentColor](http://osvaldas.info/keeping-css-short-with-currentcolor){website}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
-# `currentColor` improves code reusability
+# currentColor improves code reusability
 
 
 ---

@@ -1,10 +1,18 @@
 ---
 author: catalin
 type: normal
-category: how to
+category: how-to
 links:
   - >-
     [docs.python.org](https://docs.python.org/3.5/tutorial/datastructures.html#nested-list-comprehensions){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Nested lists comprehension
@@ -81,7 +89,6 @@ l = [??? for x in range(10)\
 What will the output of the following snippet be?
 
 ```python
-
 l = [(x, y) for x in range(10) if x % 2 /
     for y in range(10) if y % 2 == 0]
 print(l[2])
@@ -93,3 +100,4 @@ print(l[2])
 - (1,2)
 - (1,3)
 - (1,6)
+ 

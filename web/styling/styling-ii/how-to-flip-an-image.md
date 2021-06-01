@@ -1,11 +1,21 @@
 ---
 author: catalin
 type: normal
-category: how to
+category: how-to
 links:
   - >-
     [How to Flip
     Images](http://stackoverflow.com/questions/28583629/how-to-make-images-flip-rotate-using-css){discussion}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # How to flip an image
@@ -34,7 +44,9 @@ The `scale()` method increases or decreases the size of an element (according to
 
 Which method is used to modify the width of an image?
 
+```css
 ???
+```
 
 - `scaleX`
 - `scaleW`

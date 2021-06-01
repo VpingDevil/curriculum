@@ -5,6 +5,14 @@ category: must-know
 links:
   - >-
     [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Fetch API
@@ -48,7 +56,9 @@ fetch('/the/url', myOptions)
 
 ## Practice
 
-What is the required argument the `fetch()` takes? ???
+What is the required argument the `fetch()` takes? 
+
+???
 
 - The path to the resource you want to fetch.
 - The network name.
@@ -65,3 +75,4 @@ Which interface for fetching resources supports promises natively?
 
 - `fetch`
 - `XMLHttpRequest`
+ 

@@ -17,9 +17,18 @@ links:
   - >-
     [HTML <td>
     Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
-# The `<table>` , `<tr>` , & `<td>` Elements
+# Elements (table, tr & td)
 
 
 ---
@@ -87,9 +96,11 @@ Arrange the HTML tags to properly create this table:
 </tag1>
 ```
 
+```html
 tag1 = ???
 tag2 = ???
 tag3 = ???
+```
 
 - table
 - tr
@@ -106,11 +117,24 @@ tag3 = ???
 
 ## Revision
 
-Match the HTML element with its description:
+Which HTML element mathes these descriptions:
 
-??? = defines the entire table
-??? = defines the table row
-??? = defines the table data
+Defines the entire table:
+
+```html
+???
+```
+
+Defines the table row:
+
+```html
+???
+```
+
+Defines the table data:
+```html
+???
+```
 
 - `<table>`
 - `<tr>`

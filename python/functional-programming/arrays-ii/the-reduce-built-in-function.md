@@ -6,9 +6,17 @@ links:
   - >-
     [Map, filter and
     Reduce](http://web.mit.edu/6.005/www/fa15/classes/25-map-filter-reduce/#reduce){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
-# The `reduce` Built-in Function
+# The reduce Function
 
 
 ---
@@ -121,3 +129,4 @@ print(reduce(lambda x, y: x / y, numbers))
 
 [1:Functional Programming]
 *The style of programming that eschews imperative loops such as for loops is called functional programming. For more information about functional programming and Python, see the related workout, since the topic is too broad to cover in one lesson.*
+ 

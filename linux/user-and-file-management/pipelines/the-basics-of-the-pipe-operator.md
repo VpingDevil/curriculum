@@ -2,10 +2,14 @@
 author: jfarmer
 type: normal
 category: must-know
-inAlgoPool: false
 tags:
   - introduction
   - workout
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # The Basics of The Pipe Operator `|`

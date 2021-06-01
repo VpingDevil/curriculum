@@ -6,6 +6,11 @@ links:
   - >-
     [Basic Client Configuration Official
     Documentation](http://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration){website}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Add autocorrect to git

@@ -9,6 +9,15 @@ links:
   - >-
     [MDN Docs on Pseudo
     Elements](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Use pseudo-elements to style specific parts of an element
@@ -61,7 +70,9 @@ Which of the following is NOT a pseudo-element?
 
 Ideally, what should precede all pseudo-elements declaration?
 
+```plain-text
 ???
+```
 
 - `::`
 - `;;`

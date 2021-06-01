@@ -6,6 +6,16 @@ links:
   - >-
     [Git Customizing Official
     Documentation](http://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Custom commit template

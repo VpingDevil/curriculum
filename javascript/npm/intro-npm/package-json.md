@@ -7,6 +7,15 @@ tags:
 links:
   - >-
     [docs.npmjs.com](https://docs.npmjs.com/getting-started/using-a-package.json){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # `package.json`
@@ -46,7 +55,7 @@ Using the -y flag speeds up the process by omitting certain options including sp
 
 The default generated file for a project called *example* would look like this:
 
-```plain-text
+```json
 {
   "name": "example",
   "version": "1.0.0",

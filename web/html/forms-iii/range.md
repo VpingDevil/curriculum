@@ -6,9 +6,19 @@ links:
   - >-
     [HTML <input
     type="range"](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/range){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
-# HTML `range` type input
+# The range input type
 
 
 ---
@@ -168,7 +178,9 @@ Complete this code where the range slider is between 1 and 100 and starts in the
 
 Which form input type defines a slider control?
 
+```html
 ???
+```
 
 - range
 - max-min

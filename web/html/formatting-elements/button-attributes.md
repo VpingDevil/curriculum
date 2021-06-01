@@ -6,9 +6,17 @@ links:
   - >-
     [HTML <button>
     Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
-# `<button>` attributes
+# Button attributes
 
 
 ---
@@ -106,4 +114,3 @@ Set name: ???
 - `string`
 - `send`
 - `off`
- 

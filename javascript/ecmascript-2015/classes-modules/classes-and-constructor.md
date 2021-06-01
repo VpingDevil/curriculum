@@ -2,7 +2,6 @@
 author: alexjmackey
 type: normal
 category: feature
-inAlgoPool: false
 tags:
   - es6
   - introduction
@@ -14,6 +13,15 @@ links:
   - >-
     [MDN -
     Constructors](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/constructor){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Classes and Constructor
@@ -99,7 +107,7 @@ console.log(myRec.length)
 
 ## Revision
 
-How would you assign a variable passed to the constructor to a class?
+How would you assign a variable `volume` passed to the constructor to a class?
 
 ```javascript
 class Sphere() {
@@ -113,3 +121,4 @@ class Sphere() {
 - this.volume
 - const volume
 - let volume
+ 

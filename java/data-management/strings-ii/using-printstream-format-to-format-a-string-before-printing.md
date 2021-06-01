@@ -1,13 +1,22 @@
 ---
 author: adamMontgomerie
 type: normal
-category: how to
+category: how-to
 tags:
   - strings
   - formatting
 links:
   - >-
     [docs.oracle.com](https://docs.oracle.com/javase/tutorial/java/data/numberformat.html){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Using `Printstream.format` to format a string before printing
@@ -61,7 +70,7 @@ System.out.???("The value"+
 
 ## Revision
 
-Using `System.out.format` , what specifier is used to print `float` s?
+Using `System.out.format`, what specifier is used to print `float` s?
 
 ???
 

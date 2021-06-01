@@ -6,9 +6,18 @@ links:
   - >-
     [HTML <q>
     Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
-# Intro `<q>`
+# The q element
 
 
 ---
@@ -72,7 +81,7 @@ Which statements about the `<q>` element is not correct?
 
 ## Revision
 
-What is the most appropriate HTML element to use here?
+Given the code:
 
 ```html
 <p> As
@@ -84,10 +93,13 @@ What is the most appropriate HTML element to use here?
     An ANCHORMAN!
   </tag>
 </p>
-
 ```
 
+What is the most appropriate HTML element to use here?
+
+```html
 tag = ???
+```
 
 - q
 - quote

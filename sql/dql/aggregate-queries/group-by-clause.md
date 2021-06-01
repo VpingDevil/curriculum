@@ -2,13 +2,22 @@
 author: SebaRaba
 type: normal
 category: must-know
-inAlgoPool: false
 tags:
   - workout
 links:
   - >-
     [More on GROUP
     BY](https://www.techonthenet.com/sql/group_by.php){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Group By clause
@@ -60,7 +69,7 @@ We have a table called `pokemon`. In this table there are two fields:
 We want to count how many pokemon are **not** default. Fill in the blanks to complete this query:
 
 ```sql
-SELECT ???(name),???
+SELECT ???(name), ???
 FROM pokemon
 ??? is_default;
 ```

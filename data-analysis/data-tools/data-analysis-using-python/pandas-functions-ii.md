@@ -1,21 +1,30 @@
 ---
 author: emmab
-
 tags:
   - introduction
-
 type: normal
-
 category: must-know
-
 links:
-  - '[Filtering Data](https://cmdlinetips.com/2018/02/how-to-subset-pandas-dataframe-based-on-values-of-a-column/){website}'
-
-
+  - >-
+    [Filtering
+    Data](https://cmdlinetips.com/2018/02/how-to-subset-pandas-dataframe-based-on-values-of-a-column/){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
+
 # Pandas Functions I
 
+
 ---
+
 ## Content
 
 ---
@@ -75,6 +84,7 @@ Using Python, you can quickly answer questions like - What are the 10 most revie
 
 
 ---
+
 ## Practice
 
 Complete the following code to remove the `date_of_birth` column from our `students` dataset:
@@ -88,7 +98,9 @@ students.???('date_of_birth, axis:"columns", inplace=True)
 - remove
 - delete
 
+
 ---
+
 ## Revision
 
 Complete the following code to check how many null values there are in the students data set:
@@ -101,4 +113,3 @@ students.???().sum()
 - fillna
 - null
 - countnull
- 

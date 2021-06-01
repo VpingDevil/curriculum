@@ -12,9 +12,17 @@ links:
   - >-
     [StackOverflow CSS before
     JS](https://stackoverflow.com/questions/9271276/is-the-recommendation-to-include-css-before-javascript-invalid){discussion}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
-# The `<head>` Element
+# The head Element
 
 
 ---

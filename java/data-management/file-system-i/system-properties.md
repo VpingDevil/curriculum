@@ -6,6 +6,14 @@ links:
   - >-
     [More on System
     Properties](https://docs.oracle.com/javase/tutorial/essential/environment/sysprop.html){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # System Properties
@@ -62,8 +70,8 @@ What does `user.dir` return?
 ## Revision
 
 Why is it important to consider different system properties when working with file systems?
+
 ???
 
 - Different operating systems have their own unique properties which if mixed up will ruin the program
 - System properties are changing through out the execution process so it is important to stay up to date to ensure the correctness of the program
- 

@@ -9,9 +9,17 @@ links:
   - >-
     [Working With
     Shapes](https://css-tricks.com/working-with-shapes-in-web-design/){Article}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
-# Manipulating shapes using CSS: `clip-path`
+# Manipulating shapes using clip-path
 
 
 ---

@@ -6,6 +6,15 @@ links:
   - >-
     [HTML Radio
     Button](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Creating Radio Buttons

@@ -6,6 +6,16 @@ links:
   - >-
     [Article on Sass
     Operators](http://webstandardssherpa.com/reviews/getting-started-with-sass-part-2/){article}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Sass Operators

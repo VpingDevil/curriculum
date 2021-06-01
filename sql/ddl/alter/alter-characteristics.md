@@ -2,7 +2,6 @@
 author: kapnobatai136
 type: normal
 category: must-know
-inAlgoPool: false
 tags:
   - workout
   - deep
@@ -10,6 +9,16 @@ links:
   - >-
     [More on ADD
     DEFAULT](https://www.w3schools.com/sql/sql_default.asp){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Alter Characteristics
@@ -112,7 +121,7 @@ ALTER ??? ???
 
 ## Revision
 
-We'd like to set the default value `"ruby"` to all entries in the column `name` in the `version` table. We would also like to remove the `NOT NULL` clause to the `id` column.
+We'd like to set the default value `"ruby"` to all entries in the `name` column in the `version` table. We would also like to remove the `NOT NULL` clause to the `id` column.
 
 ```md
 | id | version_group_id | name     |

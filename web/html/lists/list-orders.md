@@ -11,6 +11,15 @@ links:
   - >-
     [CSS list style type
     Property](https://www.w3schools.com/cssref/pr_list-style-type.asp){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # List Orders
@@ -180,10 +189,14 @@ Option 4
 5. Item A
 ```
 
-- Option 1
-- Option 2
-- Option 3
-- Option 4
+```plain-text
+Option ???
+```
+
+- 1
+- 2
+- 3
+- 4
 
 
 ---

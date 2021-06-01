@@ -12,9 +12,18 @@ links:
   - >-
     [The list-style
     Property](https://css-tricks.com/almanac/properties/l/list-style/){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
-# Use `list-style-type` to change the marker type in lists
+# Use list-style-type to change the marker type in lists
 
 
 ---
@@ -57,18 +66,18 @@ This is how the lists would look:
 
 Complete the following snippet to change the default list marker:
 
-```plain-text
+```css
 ul.specialList {
- ???:
+ ???-???-???:
           url('img.jpg');
 }
 ```
 
-- `list-style-image`
-- `list-style-type`
-- `list-style-font`
-- `list-style`
-
+- `list`
+- `style`
+- `image`
+- `type`
+- `font`
 
 ---
 

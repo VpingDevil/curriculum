@@ -2,14 +2,21 @@
 author: SebaRaba
 type: normal
 category: must-know
-inAlgoPool: false
 tags:
   - workout
   - deep
 links:
   - >-
-    [SQLMag Do's and Don'ts of
-    indices](http://www.itprotoday.com/microsoft-sql-server/indexing-dos-and-don-ts){website}
+    [Indexing Dos and Don’ts](https://www.itprotoday.com/sql-server/indexing-dos-and-don-ts){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # When to add Indices
@@ -35,7 +42,7 @@ Thus, we should bear in mind the followings while creating Indices:
 
 ## Practice
 
-Consider the following table. We want to create a non-clustered index on the `experience` column:
+Consider the following table named `experience`. We want to create a non-clustered index on the `experience` column:
 
 ```md
 | id | level | experience | growth_rate_id |
@@ -81,9 +88,9 @@ Consider the item table:
 | 4  | 200  | poke-ball   |
 ```
 
-???
-
 Suppose that `PRIMARY KEY` isn't set yet. Choose the query that will create a clustered index on the `id` column.
+
+???
 
 - CREATE UNIQUE INDEX id_clustered ON item(id);
 - CREATE UNIQUE INDEX id_clustered ON item(cost);

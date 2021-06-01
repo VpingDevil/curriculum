@@ -6,6 +6,14 @@ links:
   - >-
     [SQL Tutorial:
     WHERE](http://www.sql-tutorial.com/sql-where-sql-tutorial/){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # WHERE (1)

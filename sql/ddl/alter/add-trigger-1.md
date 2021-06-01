@@ -2,7 +2,6 @@
 author: SebaRaba
 type: normal
 category: must-know
-inAlgoPool: false
 tags:
   - workout
   - deep
@@ -10,9 +9,13 @@ links:
   - >-
     [More on CREATE
     TRIGGER](https://www.codeproject.com/Articles/25600/Triggers-SQL-Server){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
-# Add Trigger (1)
+# Add Trigger I
 
 
 ---

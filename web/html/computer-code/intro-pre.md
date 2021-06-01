@@ -2,10 +2,19 @@
 author: Stefan-Stojanovic
 type: normal
 category: must-know
-links: null
+
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
-# `<pre>` - Preformatted Text
+# The pre Element
 
 
 ---
@@ -78,15 +87,17 @@ Which is true about the `<pre>` element?
 
 What HTML element is used to display the text exactly as it is laid out within the element?
 
-???
+```html
+<???>
+```
 
-- `<pre>`
-- `<samp>`
-- `<code>`
-- `<element>`
-- `<white-space>`
-- `<standard>`
-- `<output>`
+- `pre`
+- `samp`
+- `code`
+- `element`
+- `white-space`
+- `standard`
+- `output`
 
 
 ---

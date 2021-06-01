@@ -5,10 +5,19 @@ category: must-know
 tags:
   - workout
   - deep
-links: null
+
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
-# The `<colgroup>` & `<col>` Elements
+# Elements (colgroup & col)
 
 
 ---
@@ -90,13 +99,13 @@ When using the `<colgroup>` element, which statements is not true?
 
 - `colgroup`
 - `col`
-- must be placed before any `<caption>` elements
+- `must be placed before any <caption> elements`
 - `colstyle`
 - `colspan`
 - `column`
-- must be used as a child of a `<table>` element.
-- must be placed after any `<caption>` elements
-- must be placed before any `<thead>`, `<tbody>`, `<tfoot>`, & `<tr>` elements.
+- `must be used as a child of a <table> element.`
+- `must be placed after any <caption> elements`
+- `must be placed before any <thead>, <tbody>, <tfoot>, and <tr> elements.`
 
 
 ---
@@ -105,7 +114,9 @@ When using the `<colgroup>` element, which statements is not true?
 
 Which HTML element is useful for applying styles to entire columns, rather than in repeating styles for each cell in every row?
 
+```html
 ???
+```
 
 - `<colgroup>`
 - `<rowgroup>`

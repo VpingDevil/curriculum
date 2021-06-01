@@ -6,6 +6,16 @@ links:
   - >-
     [medium.com](https://medium.com/@adamzerner/how-bodyparser-works-247897a93b90#.34biejvm1){website}
   - '[github.com](https://github.com/expressjs/body-parser){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # `body-parser` in **Express**
@@ -82,7 +92,7 @@ app.use(
 ## Revision
 
 ```javascript
-//parse application/json
+// parse application/json
 app.???(bodyParser.???());
 ```
 

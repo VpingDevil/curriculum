@@ -1,10 +1,18 @@
 ---
 author: catalin
 type: normal
-category: how to
+category: how-to
+practiceQuestion:
+  formats:
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
-# Private key encryption with `OpenSSL`
+# Private key encryption with OpenSSL
 
 
 ---

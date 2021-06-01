@@ -6,16 +6,24 @@ links:
   - >-
     [Python Docs -
     sum](https://docs.python.org/3.3/library/functions.html#sum){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
-# The `sum` Built-in Function
+# The sum Function
 
 
 ---
 
 ## Content
 
-`sum` allows us to find the total of a iterable collection of numbers. It takes the general form:
+The `sum` built-in allows us to find the total of a iterable collection of numbers. It takes the general form:
 
 ```python
 sum(iterable [, start])
@@ -49,7 +57,7 @@ print(sum(letters))
 
 - TypeError: unsupported operand type(s) for +: 'int' and 'str'
 - abc
-- ['a', 'b', 'c']
+- `['a', 'b', 'c']`
 
 
 ---
@@ -79,3 +87,4 @@ print(bill1 if ??? > ??? else bill2)
 
 [1:Alternatives to `sum`]
 *An example of a rare case where an alternative method is superior to `sum` is when adding floating point values. When precision is important, it is better to use `math.fsum()` which deliberately avoids loss of precision. For more information, see the Python Docs in the Learn More section.*
+ 

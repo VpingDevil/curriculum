@@ -1,17 +1,24 @@
 ---
 author: kapnobatai136
-
 type: normal
-
 category: must-know
-
 tags:
   - update
   - syntax
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Syntax
+
 
 ---
 
@@ -39,7 +46,7 @@ Finally, you tell SQL which **records** it should upload using the `WHERE` keywo
 In the following table, someone made a typo when inserting a new manager:
 
 | id | name              | branch   |
-|----|-------------------|----------|
+| -- | ----------------- | -------- |
 | 1  | Robert California | New York |
 | 2  | Michael Scot      | Scranton |
 
@@ -57,9 +64,10 @@ WHERE
 And this is the output:
 
 | id | name              | branch   |
-|----|-------------------|----------|
+| -- | ----------------- | -------- |
 | 1  | Robert California | New York |
 | 2  | Michael Scott     | Scranton |
+
 
 ---
 
@@ -80,6 +88,7 @@ WHERE
 - SET
 - "France"
 - id
+
 
 ---
 

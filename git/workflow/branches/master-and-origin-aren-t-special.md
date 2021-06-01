@@ -2,9 +2,17 @@
 author: rosielowther
 type: normal
 category: must-know
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
-# `master` and `origin` aren't special
+# master and origin aren't special
 
 
 ---

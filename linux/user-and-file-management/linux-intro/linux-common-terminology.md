@@ -5,6 +5,14 @@ category: must-know
 tags:
   - introduction
   - linux
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Common Terminology
@@ -27,7 +35,7 @@ The **package manager** removes the tedious process of installing or uninstallin
 > 💡 As with all the skills in the app, if you want to access more advanced or specific content at any time, **feel free to use the *Skill Map* tab** to jump to the workouts most relevant for you.
 
 > 💬 Why are you interested in learning about Linux?
-> 
+>
 > Leave a comment or view some of the other comments for inspiration before moving on.
 
 
@@ -47,7 +55,7 @@ The **root user** is also called the ???.
 
 ## Revision
 
-Commands are typed into the ??? and processed by the ???.
+In unix systems, commands are typed into the ??? and processed by the ???.
 
 - terminal
 - shell
@@ -61,4 +69,3 @@ Commands are typed into the ??? and processed by the ???.
 
 [1:Bash]
 The name is an acronym for the "Bourne-Again SHell", a pun on the name of the Bourne shell (sh) it replaces (initially developed by Stephen Bourne).
- 

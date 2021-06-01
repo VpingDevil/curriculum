@@ -1,17 +1,23 @@
 ---
 author: tommarshall
-
 type: normal
-
 category: must-know
-
 tags:
   - introduction
   - workout
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Listening to events just once
+
 
 ---
 
@@ -50,6 +56,7 @@ process.once('uncaughtException', (err) => {
 ```
 
 Voilà, this will ensure that we'll react only to the first emitted `uncaughtException` event.
+
 
 ---
 

@@ -1,20 +1,24 @@
 ---
 author: kapnobatai136
-
 type: normal
-
 category: must-know
-
 tags:
   - introduction
   - foreign key
   - workout
- 
 links:
   - >-
     [Foreign
     Key](https://en.wikibooks.org/wiki/Structured_Query_Language/Foreign_Key){website}
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Foreign Key
@@ -70,6 +74,7 @@ Defining *constraints* such as a `FOREIGN KEY` usually starts with `CONSTRAINT` 
 
 > 💡 The column from the *parent* table must be defined as either `PRIMARY KEY` or `UNIQUE`[1] for the relationship to work.
 
+
 ---
 
 ## Practice
@@ -120,7 +125,7 @@ Consider you have the table `servers` which has a column `id` defined as a `PRIM
 - `id` which can't take `NULL` values
 - `name`
 - `age`
-- `server_id` which references the `id` column from the `servers` table
+- `server_id` constraint which references the `id` column from the `servers` table
 
 ```sql
 ??? players (

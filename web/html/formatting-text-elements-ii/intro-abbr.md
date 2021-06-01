@@ -5,10 +5,19 @@ category: must-know
 stub: true
 tags:
   - deep
-links: null
+
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
-# Intro `<abbr>`
+# The abbr Element
 
 
 ---
@@ -71,7 +80,9 @@ Write the code that provides a full description of the abbreviation for search e
 
 Which HTML element is used with abbreviations to provide a full description for search engines and visually impaired software?
 
-???
+```html
+<???>
+```
 
 - abbr
 - acronym
@@ -79,6 +90,7 @@ Which HTML element is used with abbreviations to provide a full description for 
 - abbreviate
 - acro
 - desc
+
 
 ---
 

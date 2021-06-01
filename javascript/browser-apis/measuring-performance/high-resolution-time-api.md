@@ -8,6 +8,14 @@ links:
     ){website}
   - >-
     [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/API/Performance/now){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # High Resolution Time API

@@ -9,16 +9,24 @@ links:
   - >-
     [Python 3.3
     Documentation](https://docs.python.org/3.3/library/functions.html#max){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
-# The `max` Built-in Function
+# The max Function
 
 
 ---
 
 ## Content
 
-The `max` function returns the largest item in an iterable object, or, the largest of two or more parameters given to it. The general syntax follows the form:
+The `max` built-in function returns the largest item in an iterable object, or, the largest of two or more parameters given to it. The general syntax follows the form:
 
 ```python
 max(iterable, *iterables [,key, default])
@@ -119,3 +127,4 @@ print(max(list3))
 
 [1:Key]
 *This is exactly the same as the way keys are used in other built-in functions such as `sort` etc. For more information see the lesson on the `sorted` and `sort` functions.*
+ 

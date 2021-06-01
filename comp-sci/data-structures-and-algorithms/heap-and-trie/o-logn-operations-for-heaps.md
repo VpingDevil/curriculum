@@ -2,6 +2,10 @@
 author: jfarmer
 type: normal
 category: must-know
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # How Do Binary Heaps Enable O(log(n)) Insertion and Removal?
@@ -26,13 +30,10 @@ Together, these imply that we will perform O(log n) swaps when inserting a new k
 
 ## Revision
 
-For insertion to take O(log n) time, the underlying structure used to implement a heap is a
-
-???.
+For insertion to take O(log n) time, the underlying structure used to implement a heap is a ???
 
 - complete binary tree
 - binary tree
 - complete graph
 - stack
 - tree
- 

@@ -1,12 +1,19 @@
 ---
 author: mihaiberq
 type: normal
-category: how to
+category: how-to
 links:
   - >-
     [Prefix, Infix and Postfix
     notations](http://www.cs.man.ac.uk/~pjj/cs2121/fix.html){website}
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Reverse Polish Notation

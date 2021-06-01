@@ -2,11 +2,18 @@
 author: milesflo
 type: normal
 category: must-know
-inAlgoPool: false
 links:
   - >-
     [SANS
     Institute](https://www.sans.org/reading-room/whitepapers/protocols/applying-osi-layer-network-model-information-security-1309){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Identifying the Presentation Layer
@@ -30,6 +37,7 @@ The Presentation Layer is also responsible for **encryption/decryption** of data
 ## Practice
 
 What role does the Presentation Layer play in the OSI 7 Layer Model?
+
 ???
 
 - Data conversion and encryption/decryption
@@ -70,4 +78,3 @@ What role does the Presentation Layer play in the OSI 7 Layer Model?
 - Opening, closing, and managing connections between applications
 - Maintaining and ensuring a stable connection between two hosts over the Internet
 - Transmitting data between network nodes
- 

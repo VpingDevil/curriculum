@@ -1,11 +1,16 @@
 ---
 author: catalin
 type: normal
-category: how to
+category: how-to
 links:
   - >-
     [Rewriting Git
     History](https://www.atlassian.com/git/tutorials/rewriting-history){website}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Modifying a Previous Commit

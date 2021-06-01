@@ -6,6 +6,15 @@ links:
   - >-
     [Article on
     Functions](http://sass-lang.com/documentation/Sass/Script/Functions.html){article}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # SassScript Number Functions
@@ -77,10 +86,10 @@ random(2);
 
 - 150%
 - 1px
-- random value : `1 <= x <= 2`
+- `random value : 1 <= x <= 2`
 - 120%
 - 1.2%
 - -1px
 - 0px
-- random value : `0 <= x <= 2`
-- random value : `x < 2`
+- `random value : 0 <= x <= 2`
+- `random value : x < 2`

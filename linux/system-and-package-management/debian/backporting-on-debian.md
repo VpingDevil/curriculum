@@ -13,6 +13,10 @@ tags:
 links:
   - '[backports.debian.org](http://backports.debian.org/Instructions/){website}'
 notes: ''
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Backporting on Debian
@@ -62,9 +66,7 @@ The `-t` (`--target-release`) specifies *jessie-backports* as target release.
 
 ## Revision
 
-`Backports` are recompiled packages taken from 
-
-???.
+`Backports` are recompiled packages taken from ???
 
 - next releases of the OS
 - older releases of the OS

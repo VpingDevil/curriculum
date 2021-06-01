@@ -1,7 +1,7 @@
 ---
 author: tuwidc
 type: normal
-category: how to
+category: how-to
 tags:
   - linux
   - terminal
@@ -10,6 +10,10 @@ tags:
   - TX
   - slurm
   - statistics
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Get real network statistics with `slurm`
@@ -65,9 +69,7 @@ Errors on Transmission: 0
 
 ## Revision
 
-`slurm` is used as a
-
-??? .
+`slurm` is used as a ???
 
 - measurement tool for internet speed
 - energy drink

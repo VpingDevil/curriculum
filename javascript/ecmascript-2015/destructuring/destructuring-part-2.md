@@ -6,6 +6,14 @@ links:
   - >-
     [Destructuring
     Assignment](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Destructuring (Part 2)
@@ -102,3 +110,4 @@ console.log(bar)
 - : foo
 - : bar
 - : 20
+ 

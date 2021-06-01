@@ -9,6 +9,16 @@ links:
     [blog.codecentric.de](https://blog.codecentric.de/en/2008/07/memory-analysis-part-1-obtaining-a-java-heapdump/){website}
 notes: >-
   https://insights.enki.com/#/contrib/others/55f42618da97642e00a78196?search=khandelwalrinki
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # The `jmap` tool
@@ -55,7 +65,7 @@ Dump the heap information into the `practice.bin` file:
 
 ```bash
 jmap ???:???=
-      practice.bin PID
+  practice.bin PID
 ```
 
 - `-dump`

@@ -9,6 +9,16 @@ links:
   - >-
     [MDN Docs on
     animation-delay](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-delay){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Using animation delay in debugging
@@ -70,8 +80,10 @@ animation-play-state: freeze;
 animation-play-state: paused;
 ```
 
-???
+```plain-text
+Line ???
+```
 
-- Line 3
-- Line 2
-- Line 1
+- 3
+- 2
+- 1

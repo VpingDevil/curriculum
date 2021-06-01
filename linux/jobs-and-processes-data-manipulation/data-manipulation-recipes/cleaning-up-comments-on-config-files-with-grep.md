@@ -1,7 +1,7 @@
 ---
 author: tuwidc
 type: normal
-category: how to
+category: how-to
 tags:
   - grep
   - linux
@@ -10,9 +10,17 @@ links:
   - >-
     [www.thegeekstuff.com](http://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/){website}
 notes: ''
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
-# Cleaning up comments on config files with `grep`
+# Cleaning up comments on config files with grep
 
 
 ---
@@ -45,8 +53,7 @@ grep -v -e '^#' -e '^$'
 Display `.bashrc` without empty lines:
 
 ```plain-text
-??? -v ??? ???
-         ~/.bashrc
+??? -v ??? ??? ~/.bashrc
 ```
 
 - `grep`

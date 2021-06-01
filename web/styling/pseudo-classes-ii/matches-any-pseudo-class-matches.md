@@ -7,10 +7,19 @@ tags:
 links:
   - >-
     [MDN Docs on
-    :matches](https://developer.mozilla.org/en-US/docs/Web/CSS/:matches){documentation}
+    :matches](https://developer.mozilla.org/en-US/docs/Web/CSS/:is){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
-# Matches-any pseudo-class `:matches`
+# Matches-any pseudo-class :matches
 
 
 ---

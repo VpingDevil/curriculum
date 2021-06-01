@@ -15,6 +15,15 @@ links:
   - >-
     [Stack Overflow - Need help to understand what Document Object Model is?
     ](https://stackoverflow.com/questions/6965802/need-help-to-understand-what-document-object-model-is){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # What is the Document Object?
@@ -53,7 +62,7 @@ document
 
 ## Practice
 
-Select the element with the id "message" and change it's content using the DOM:
+Select the element with the id `"message"` and change its content using the DOM:
 
 ```html
 <html>
@@ -84,7 +93,7 @@ document
 
 ## Revision
 
-Select the element with the id "time" and change it's content to "Future"
+Select the element with the id `"time"` and change its content to `"Future"`.
 
 ```html
 <html>

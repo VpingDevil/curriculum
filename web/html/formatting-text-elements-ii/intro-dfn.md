@@ -5,10 +5,19 @@ category: must-know
 stub: true
 tags:
   - deep
-links: null
+
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
-# Intro `<dfn>`
+# The dfn Element
 
 
 ---
@@ -79,9 +88,9 @@ for your dev skills.
 </p>
 ```
 
-- `<dfn>` defines a term when it is being described.
+- `<dfn> defines a term when it is being described.`
 - Useful to apply element each time term is referred.
-- Common to use `<abbr>` with `<dfn>` for all abbreviation's expansion.
+- `Common to use <abbr> with <dfn> for all abbreviation's expansion.`
 
 
 ---
@@ -90,7 +99,9 @@ for your dev skills.
 
 Which HTML element is used to indicate the first use of a term in a document?
 
-???
+```html
+<???>
+```
 
 - dfn
 - dir

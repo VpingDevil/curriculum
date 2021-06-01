@@ -2,10 +2,19 @@
 author: Stefan-Stojanovic
 type: normal
 category: must-know
-links: null
+
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
-# The `multiple` Attribute
+# The multiple Attribute
 
 
 ---
@@ -32,7 +41,7 @@ Example:
 
 In the example above we have allowed the user to input multiple pictures at once, instead of one by one. The user can select multiple files by pressing down ctrl or shift when selecting.
 
-If the input type is set to `email` the user can enter multiple emails by separating them with a comma. Like so: [firstmail@example.com](mailto:firstmail@example.com), [secondmail@example.com](mailto:secondmail@example.com), [thirdmail@example.com](mailto:thirdmail@example.com), etc.
+If the input type is set to `email` the user can enter multiple emails by separating them with a comma. Like so: `firstmail@example.com`, `secondmail@example.com`, `thirdmail@example.com`, etc.
 
 
 ---
@@ -44,7 +53,7 @@ Which statement is not true regarding the `multiple` attribute within forms?
 ???
 
 - Works with min and max range input type, separated by |.
-- When present, more than one value can be added in the `<input>` element.
+- `When present, more than one value can be added in the <input> element.`
 - Works with email input type, separated by commas.
 - Works with file input type, by holding down CTRL or SHIFT keys while selecting.
 

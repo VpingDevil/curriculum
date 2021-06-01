@@ -9,9 +9,13 @@ tags:
   - newline
   - issue
   - trick
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
-# `Crontab` newline issue
+# Crontab newline issue
 
 
 ---
@@ -39,12 +43,9 @@ Note how after the last command there is an empty line ensuring that the `whispe
 
 ## Revision
 
-??? 
-
-is needed for `crontab` to run the last job in the list.
+??? is needed for `crontab` to run the last job in the list.
 
 - A newline at the end
 - A newline at the start
 - A comment at the end
-- $
- 
+- `$`

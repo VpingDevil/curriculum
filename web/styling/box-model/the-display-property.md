@@ -2,7 +2,6 @@
 author: mihaiberq
 type: normal
 category: must-know
-inAlgoPool: false
 links:
   - >-
     [Scrimba CSS Width and
@@ -10,9 +9,17 @@ links:
   - >-
     [MDN Docs on
     Display](https://developer.mozilla.org/en-US/docs/Web/CSS/display){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
-# The `display` Property
+# The display Property
 
 
 ---
@@ -45,7 +52,7 @@ Which of the following elements does not accept top and bottom margin?
 - Inline
 - Block
 - Inline-block
-- Those that have `display:none`
+- `Those that have display:none`
 
 
 ---
@@ -59,4 +66,3 @@ How does `display:none` affect the element's descendants?
 - They won't be displayed either.
 - It does not affect them.
 - They will be invisible, but clickable.
- 

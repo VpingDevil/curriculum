@@ -8,6 +8,14 @@ tags:
   - dpkg
   - locales
   - terminal
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Fixing `locale` issues in Debian systems
@@ -77,7 +85,7 @@ To generate missing `locale` values and reconfigure the existing ones you can ru
 
 ## Revision
 
-To generate missing `locales`  values, you could run:
+To generate missing `locales` values, you could run:
 
 ```bash
 ??? 'pt-BR.UTF-8' 

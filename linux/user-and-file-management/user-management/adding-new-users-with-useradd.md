@@ -2,9 +2,16 @@
 author: jfarmer
 type: normal
 category: must-know
-inAlgoPool: false
 tags:
   - workout
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Adding New Users With `useradd`
@@ -45,7 +52,7 @@ On Debian systems, it's recommended you use the `adduser` command rather than th
 
 ## Practice
 
-In which case will the new user *not* be able to login? 
+In which case will a new user *not* be able to login? 
 
 ???
 

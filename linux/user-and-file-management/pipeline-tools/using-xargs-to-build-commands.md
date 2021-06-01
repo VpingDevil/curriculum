@@ -5,6 +5,10 @@ category: must-know
 tags:
   - xargs
   - workout
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Using `xargs` to build commands.

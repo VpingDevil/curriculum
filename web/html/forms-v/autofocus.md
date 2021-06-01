@@ -1,15 +1,21 @@
 ---
 author: Stefan-Stojanovic
-
 type: normal
-
 category: must-know
 
-links: null
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
-# The `autofocus` Attribute
+# The autofocus Attribute
+
 
 ---
 
@@ -41,6 +47,7 @@ In the example above, the first text field has the autofocus set, so when the pa
 
 You can assign `autofocus` as either `autofocus`, `autofocus=""` or `autofocus="autofocus"`. All three options work the same in HTML5. However, if you're using XHTML `autofocus` is required to be written as `autofocus="autofocus"`.
 
+
 ---
 
 ## Practice
@@ -52,7 +59,8 @@ Which statement isn't true regarding autofocus?
 - It should be assigned to every control in the form.
 - Automatically sets focus to assigned control when the page loads.
 - User can start using assigned control without having to select it first.
-- Can be assiged as: `autofocus` or `autofocus="autofocus"`
+- Can be assigned as: autofocus or autofocus="autofocus"
+
 
 ---
 
@@ -60,7 +68,9 @@ Which statement isn't true regarding autofocus?
 
 Which input form attribute sets a selected input as active when the page loads?
 
+```html
 ???
+```
 
 - autofocus
 - mark
@@ -68,6 +78,7 @@ Which input form attribute sets a selected input as active when the page loads?
 - active
 - focus
 - auto
+
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 author: adamMontgomerie
 type: normal
-category: how to
+category: how-to
 tags:
   - file-io
   - files
@@ -10,6 +10,11 @@ tags:
 links:
   - >-
     [docs.oracle.com](https://docs.oracle.com/javase/tutorial/essential/io/fileAttr.html){website}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Reading file attributes
@@ -35,7 +40,7 @@ BasicFileAttributes att =
 
 This will return a set of basic file attributes as a `BasicFileAttributes` object. Methods can then be called on this object to access the necessary attributes:
 
-```plain-text
+```java
 long size = att.size();
 ```
 

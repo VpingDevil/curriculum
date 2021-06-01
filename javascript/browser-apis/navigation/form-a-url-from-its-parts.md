@@ -1,9 +1,19 @@
 ---
 author: pawel
 type: normal
-category: how to
+category: how-to
 tags:
   - url
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Form a `URL` from its parts
@@ -70,3 +80,4 @@ window.???.???;
 - `url`
 - `protocol`
 - `pathname`
+ 

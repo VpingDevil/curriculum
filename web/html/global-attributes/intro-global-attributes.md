@@ -7,6 +7,14 @@ links:
   - >-
     [Global Attributes
     List](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Intro Global Attributes

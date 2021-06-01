@@ -4,6 +4,15 @@ type: normal
 category: hack
 links:
   - '[CSS Pro Tips](https://github.com/AllThingsSmitty/css-protips){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Comma-separated lists
@@ -58,6 +67,6 @@ ul > li:not(:last-child)::after {
 
 ???
 
-- Adds // after each item in the list except for after the final item.
+- `Adds // after each item in the list except for after the final item.`
 - Changes the list so it's just a list of forward slashes.
-- Changes the content of the last child to //.
+- `Changes the content of the last child to //.`

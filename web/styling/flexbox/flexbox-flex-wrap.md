@@ -11,9 +11,17 @@ links:
   - >-
     [MDN Docs on
     flex-wrap](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-wrap){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
-# Flexbox `flex-wrap`
+# Flexbox flex-wrap
 
 
 ---

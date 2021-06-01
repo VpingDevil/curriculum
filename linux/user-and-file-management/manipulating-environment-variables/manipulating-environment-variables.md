@@ -7,6 +7,15 @@ tags:
   - shell
   - environment
   - variables
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Shell vs Environment

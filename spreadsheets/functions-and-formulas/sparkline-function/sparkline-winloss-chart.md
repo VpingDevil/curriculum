@@ -1,18 +1,25 @@
-﻿---
+---
 author: Stefan-Stojanovic
-
 aspects:
   - workout
-
 type: normal
-
-category: how to
-
+category: how-to
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Sparkline Win-Loss Charts
 
+
 ---
+
 ## Content
 
 The `Win-Loss` charts are used for displaying a positive and negative outcome based on the provided data.
@@ -24,6 +31,7 @@ They are created like so:
 ```
 
 The possible sub-options for this chart type are:
+
 - `color` sets the color of the chart.
 - `lowcolor` sets the color of the lowest value in the chart.
 - `highcolor` sets the color of the highest value in the chart.
@@ -37,6 +45,7 @@ The possible sub-options for this chart type are:
 - `rtl` determines if the chart is rendered left-to-right or right-to-left. Possible values are `true` and `false`
 
 Just like with other chart types, these options are added the same way:
+
 ```plain-text
 =SPARKLINE(data, {
   "charttype", "line"; 
@@ -53,7 +62,9 @@ As you can see in the image above, `Win-Loss` charts without an added color are 
 
 > Just like the `Line` chart, you can modify the color by changing the font color of the cell.
 
+
 ---
+
 ## Practice
 
 The `Win-Loss` charts are used ???
@@ -61,7 +72,9 @@ The `Win-Loss` charts are used ???
 - to display a positive and negative outcome based on the selected range of data.
 - for determining what percentage of a whole the data occupies similarly to a pie chart.
 
+
 ---
+
 ## Revision
 
 Fill in the code below to create a single-cell `Win-Loss` chart for the range `A1:A9`. Set the color of the highest value to green and the color of the lowest value to red. 

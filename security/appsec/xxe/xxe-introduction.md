@@ -3,15 +3,13 @@ author: lizTheDeveloper
 type: normal
 category: hack
 links:
-  - >-
-    [OWASP Top
-    Ten](https://owasp.org/www-project-top-ten/){website}
+  - '[OWASP Top Ten](https://owasp.org/www-project-top-ten/){website}'
   - >-
     [Billion Laughs
     Attack](https://en.wikipedia.org/wiki/Billion_laughs_attack){website}
   - >-
     [Security Briefs - XML Denial of Service Attacks and
-    Defenses](https://msdn.microsoft.com/en-us/magazine/ee335713.aspx){website}
+    Defenses](https://docs.microsoft.com/en-us/archive/msdn-magazine/2009/november/xml-denial-of-service-attacks-and-defenses){website}
   - >-
     [SAML Security XML External Entity
     Attack](https://secretsofappsecurity.blogspot.com/2017/01/saml-security-xml-external-entity-attack.html){website}
@@ -19,6 +17,14 @@ links:
     [Detecting and exploiting XXE in SAML
     Interfaces](https://web-in-security.blogspot.com/2014/11/detecting-and-exploiting-xxe-in-saml.html){website}
   - '[CVE-611](https://cwe.mitre.org/data/definitions/611.html){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # eXternal XML Entities
@@ -109,6 +115,7 @@ From Wikipedia:
 ## Practice
 
 An XXE attack affects what components of an application?
+
 ???
 
 - XML Processors
@@ -122,10 +129,10 @@ An XXE attack affects what components of an application?
 ## Revision
 
 An XXE attack comes from exploiting what?
+
 ???
 
 - External Entities
 - Unvalidated Input
 - Untested Code
 - Malformed Requests
- 

@@ -5,6 +5,14 @@ category: feature
 notes: >-
   Do I need to give examples of the inconsistencies? The info on this seems
   pretty vague and it seems like people are mostly using a github work-around.
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Allow an element to go fullscreen

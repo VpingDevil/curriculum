@@ -6,9 +6,18 @@ links:
   - >-
     [HTML <header>
     Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
-# The `<header>` Element
+# The header Element
 
 
 ---
@@ -78,7 +87,9 @@ The `<header>` element is encouraged to do which of the following?
 
 Which container is best to organize the top of a web page or content section?
 
+```html
 ???
+```
 
 - `<header>`
 - `<head>`
@@ -103,9 +114,9 @@ The HTML `<header>` element cannot what?
 
 ???
 
-- be added within a `<footer>` element.
+- `be added within a <footer> element.`
 - contain website navigation
 - display one or more heading (h1-h6) elements
 - hold a graphical logo
 - display authorship information
-- have multiple `<header>` elements within the same doc.
+- `have multiple <header> elements within the same doc.`

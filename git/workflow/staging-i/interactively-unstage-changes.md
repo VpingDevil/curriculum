@@ -5,6 +5,15 @@ category: must-know
 links:
   - '[Git Reset](https://git-scm.com/docs/git-reset){documentation}'
   - '[Git Add](https://git-scm.com/docs/git-add){documentation}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Interactively unstage changes
@@ -58,8 +67,8 @@ git reset --patch enki.md
 
 ???
 
-- interactively removes changes made to `enki.md`
-- restores `enki.md` to the last version
+- interactively removes changes made to enki.md
+- restores enki.md to the last version
 - untracks enki.md
 
 

@@ -5,6 +5,15 @@ category: must-know
 links:
   - >-
     [MediaDevices](https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # MediaDevices.getUserMedia()
@@ -89,10 +98,12 @@ let p = navigator.???.???({
 
 ## Revision
 
-If permission is provided, what is the
-promise returned and resolved with? ???
+If permission is provided, what is the promise returned and resolved with? 
+
+???
 
 - The MediaStream object.
 - A permission object.
 - A promise object.
 - Constraints for the media device.
+ 

@@ -6,6 +6,16 @@ links:
   - >-
     [HTTP Server in
     Node](https://ponyfoo.com/articles/teach-yourself-nodejs-in-10-steps#http-server){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Http Server in **Node**

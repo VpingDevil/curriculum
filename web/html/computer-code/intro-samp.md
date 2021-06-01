@@ -6,9 +6,18 @@ links:
   - >-
     [HTML <samp>
     Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/samp){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
-# `<samp>` - Sample Output Element
+# The samp Element 
 
 
 ---
@@ -49,8 +58,8 @@ When using the `<samp>` element, which statement is **not** true?
 - represents user input
 - represents sample output from a computer program
 - displayed in the browser's default monospace font
-- when nested inside `<kbd>`, represents input based on system output.
-- when containing `<kbd>`, represents input echoed by the system.
+- `when nested inside <kbd>, represents input based on system output.`
+- `when containing <kbd>, represents input echoed by the system.`
 
 
 ---
@@ -59,7 +68,9 @@ When using the `<samp>` element, which statement is **not** true?
 
 What HTML element wraps around sample output text from a computer program to identify it differently?
 
-???
+```html
+<???>
+```
 
 - samp
 - code

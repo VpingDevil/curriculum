@@ -8,9 +8,13 @@ links:
   - >-
     [Tutorial on Border
     Radius](http://www.techonthenet.com/css/properties/border_radius.php){article}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
-# `Border-radius` property can use `slash syntax(/)`
+# Border-radius property can use slash syntax(/)
 
 
 ---

@@ -1,7 +1,7 @@
 ---
 author: catalin
 type: normal
-category: best practice
+category: best-practice
 tags:
   - introduction
   - workout
@@ -9,6 +9,14 @@ links:
   - '[nodejs.org](https://nodejs.org/api/errors.html){website}'
   - >-
     [blog.risingstack.com](https://blog.risingstack.com/node-js-best-practices/){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # `try-catch` only for **sync** code
@@ -52,7 +60,7 @@ function readJSON(filePath, callback) {
 
 ## Practice
 
-Which of the following is the correct declaration of a `try-catch` block? ???
+Which of the following is the correct declaration of a `try-catch` block?
 
 ```javascript
 // Option A
@@ -75,8 +83,9 @@ try {
 } catch (exception) {
    // return exception
 }
-
 ```
+
+???
 
 - Option C
 - Option A

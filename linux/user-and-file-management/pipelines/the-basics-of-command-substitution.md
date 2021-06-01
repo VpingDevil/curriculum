@@ -1,21 +1,24 @@
 ---
 author: jfarmer
-
 type: normal
-
 category: must-know
-
 tags:
   - introduction
   - workout
-
 links:
   - >-
     [More
     Substitutions](http://www.tldp.org/LDP/abs/html/commandsub.html){website}
-  - >-
-    [curl](https://curl.haxx.se/docs/manpage.html){documentation}
-
+  - '[curl](https://curl.haxx.se/docs/manpage.html){documentation}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The Basics of Command Substitution
@@ -74,6 +77,7 @@ ls -l `which curl`
 # Dec  2  2015 /usr/bin/curl*
 ```
 
+
 ---
 
 ## Practice
@@ -99,16 +103,18 @@ Use substitution to pass the content of the file to `curl`:
 - `<`
 - `websites.txt`
 
+
 ---
 
 ## Revision
 
 If you want to use the output of a program as a command line argument, you would have to use ???.
 
-- $(...) or `...`
-- >
-- |
-- > >
+- `$(...) or ...`
+- `>`
+- `|`
+- `> >`
+
 
 ---
 

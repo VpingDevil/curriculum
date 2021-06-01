@@ -1,13 +1,17 @@
 ---
 author: tuwidc
 type: normal
-category: how to
+category: how-to
 tags:
   - linux
   - security
   - ssh
   - bruteforce
   - debian
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Track SSH log-in attempts
@@ -58,9 +62,7 @@ journalctl _COMM=sshd
 
 ## Revision
 
-`/log/auth.log` can be used to track 
-
-??? .
+`/log/auth.log` can be used to track ???
 
 - failed log in attempts
 - packets received

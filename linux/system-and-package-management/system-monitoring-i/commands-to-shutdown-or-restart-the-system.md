@@ -7,6 +7,16 @@ tags:
   - linux
   - halt
   - poweroff
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Commands to shutdown or restart the system
@@ -38,11 +48,10 @@ sudo init 6
 
 ## Practice
 
+What is the command to make the system start the restart process `now`?
 ```bash
 ??? 
 ```
-
-command restarts the system.
 
 - `sudo shutdown -r now`
 - `sudo halt`
@@ -54,11 +63,12 @@ command restarts the system.
 
 ## Revision
 
+What is the command to shutdown the system `now`?
 ```bash
 ???
 ```
 
-command shuts down the system.
+
 
 - `sudo shutdown -h now`
 - `sudo reboot`

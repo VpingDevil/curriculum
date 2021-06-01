@@ -2,10 +2,13 @@
 author: jfarmer
 type: normal
 category: must-know
-inAlgoPool: false
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
-# The `head` And `tail` Commands
+# The head And tail Commands
 
 
 ---

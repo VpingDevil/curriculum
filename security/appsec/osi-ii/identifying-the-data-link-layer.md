@@ -2,11 +2,18 @@
 author: milesflo
 type: normal
 category: must-know
-inAlgoPool: false
 links:
   - >-
     [SANS
     Institute](https://www.sans.org/reading-room/whitepapers/protocols/applying-osi-layer-network-model-information-security-1309){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Identifying the Data Link Layer
@@ -26,6 +33,7 @@ One note-worthy protocol in the Data Link Layer is the Address Resolution Protoc
 ## Practice
 
 What role does the Data Link Layer play in the OSI 7 Layer Model?
+
 ???
 
 - Transmitting data between network nodes
@@ -64,4 +72,3 @@ What role does the Data Link Layer play in the OSI 7 Layer Model?
 - Routing and transmission over the physical topography of the Internet
 - Providing computational power via electronic circuits
 - Packaging data packets into data streams and vice versa for transport
- 

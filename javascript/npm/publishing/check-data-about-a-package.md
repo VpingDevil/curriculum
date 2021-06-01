@@ -8,6 +8,16 @@ tags:
   - deep
 links:
   - '[docs.npmjs.com](https://docs.npmjs.com/cli/view){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Check the details of a package

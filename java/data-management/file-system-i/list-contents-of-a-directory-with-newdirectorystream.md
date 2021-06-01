@@ -1,7 +1,7 @@
 ---
 author: adamMontgomerie
 type: normal
-category: how to
+category: how-to
 tags:
   - directories
   - file-system
@@ -11,6 +11,11 @@ tags:
 links:
   - >-
     [docs.oracle.com](https://docs.oracle.com/javase/tutorial/essential/io/dirs.html){website}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # List contents of a directory with `newDirectoryStream`
@@ -28,7 +33,7 @@ DirectoryStream<Path> stream =
 
 The object that is returned implements the `Iterable` interface, which allows us to iterate over the contents of the directory:
 
-```plain-text
+```java
 for(Path file: stream) {
   System.out.println(file.getFileName());
 }

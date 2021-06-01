@@ -8,7 +8,16 @@ tags:
   - deep
 links:
   - >-
-    [Chaining](http://www.naeemrana.com/node-js/node-js-streams-pipe-and-chaining/){website}
+    [Chaining](https://www.naeemrana.com/node-js/node-js-streams-pipe-and-chaining/){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Chaining Readable Streams
@@ -22,7 +31,7 @@ Chaining is where multiple pipes are used to move (pipe) data along a path where
 
 Take the following example:
 
-```plain-text
+```js
 var fs = require(‘fs’);
 var zlib = require(`zlib’);
 

@@ -1,10 +1,7 @@
 ---
 author: elliehoward
-
 type: normal
-
 category: must-know
-
 links:
   - >-
     [MDN -
@@ -12,16 +9,26 @@ links:
   - >-
     [How do I create and style a div with
     JS?](https://stackoverflow.com/questions/6840326/how-can-i-create-and-style-a-div-using-javascript){discussion}
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Creating Elements
+
 
 ---
 
 ## Content
 
 In order to create a new element on a webpage dynamically with JavaScript, we use the DOM's method `createElement`:  
+
 ```js
 let newDiv = 
   document.createElement('div')
@@ -72,13 +79,13 @@ Given this code, fill in the blanks to create a new paragraph element:
 
 ```javascript
 let p = 
-  document.???(???);
+  document.???("???");
 ```
 
 - `createElement`
-- `"p"`
-- `create`
 - `p`
+- `create`
+- `paragraph`
 - `element`
 - `getElementsByTagName`
 
@@ -91,7 +98,7 @@ Which method on the Document Object is used for making a new element?
 
 ```js
 document.???
-```  
+```
 
 - `createElement`
 - `makeElement`

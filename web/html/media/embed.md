@@ -9,9 +9,18 @@ links:
   - >-
     [MDN: <embed>
     Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/embed){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
-# The `<embed>` Element
+# The embed Element
 
 
 ---
@@ -60,7 +69,9 @@ Select the statement that is not true regarding the `<embed>` element:
 
 Which HTML element is used to define the container for an external app or plugin, like Adobe Flash?
 
+```html
 ???
+```
 
 - `<embed>`
 - `<app>`

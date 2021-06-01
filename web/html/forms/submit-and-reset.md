@@ -9,6 +9,15 @@ links:
   - >-
     [HTML
     type="submit"](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/submit){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Submit & Reset

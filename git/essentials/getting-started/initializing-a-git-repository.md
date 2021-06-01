@@ -2,11 +2,19 @@
 author: catalin
 type: normal
 category: must-know
-inAlgoPool: false
 links:
   - >-
     [Setting up a Repository Official
     Documentation](https://www.atlassian.com/git/tutorials/setting-up-a-repository/){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Initializing a Git repository
@@ -44,10 +52,10 @@ What will running `git init` do?
 
 ???
 
-- setup **Git** and bring your project under its Source Control
-- upload your project to the **Git** server
+- setup Git and bring your project under its Source Control
+- upload your project to the Git server
 - download a sample project from the web
-- link you project to **GitHub**
+- link you project to GitHub
 
 
 ---
@@ -56,7 +64,9 @@ What will running `git init` do?
 
 What command is used to initialize **Git** for a project?
 
+```bash
 ???
+```
 
 - `git init`
 - `git start`

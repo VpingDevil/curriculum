@@ -6,6 +6,14 @@ links:
   - >-
     [Piping
     Streams](https://www.sandersdenardi.com/readable-writable-transform-streams-node/){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Piping Readable Streams

@@ -9,6 +9,15 @@ links:
   - >-
     [Local
     Modules](http://www.tutorialsteacher.com/nodejs/nodejs-local-modules){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Local Modules

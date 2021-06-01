@@ -6,6 +6,14 @@ links:
   - >-
     [more on
     generators](http://www.python-course.eu/python3_generators.php){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Generator of generators
@@ -55,7 +63,7 @@ Finally, we print a list containing the first 10 *elements* of the *Fibonacci se
 
 We want to generate the first `n` perfect squares. Fill the gaps accordingly:
 
-```plain-text
+```python
 def perfect_square():
   x = 1
   while ???:
@@ -81,7 +89,7 @@ def first_n(g,n):
 
 What will the output be?
 
-```plain-text
+```python
 def power_of_two():
     x = 2
     while True:

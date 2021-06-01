@@ -2,12 +2,21 @@
 author: mihaiberq
 type: normal
 category: must-know
-inAlgoPool: false
 links:
   - '[Scrimba CSS Borders](https://scrimba.com/p/pWvwCg/cmJvzh6){tutorial}'
   - >-
     [MDN Docs on
     border](https://developer.mozilla.org/en-US/docs/Web/CSS/border){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Borders
@@ -52,13 +61,17 @@ div{
 
 ## Practice
 
-In the shorthand declaration, where is the style of the border located?
+In the shorthand declaration:
 
 ```css
 border: 1 2 3;
 ```
 
+Which number represents the style of the border?
+
+```plain-text
 ???
+```
 
 - 2
 - 1
@@ -69,13 +82,15 @@ border: 1 2 3;
 
 ## Revision
 
-In the shorthand declaration, where is the color of the border located?
+In the shorthand declaration, which number represents the color of the border?
 
 ```css
 border: 1 2 3;
 ```
 
+```plain-text
 ???
+```
 
 - 3
 - 1

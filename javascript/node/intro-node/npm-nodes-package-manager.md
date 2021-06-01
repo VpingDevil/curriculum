@@ -6,6 +6,14 @@ tags:
   - introduction
 links:
   - '[npmjs.com](https://www.npmjs.com/){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # NPM, Node's Package Manager
@@ -38,7 +46,7 @@ npm install <package>
 
 Complete the code snippet to check you're using the latest NPM version:
 
-```plain-text
+```bash
 npm install npm@???
 ```
 
@@ -53,8 +61,8 @@ npm install npm@???
 
 Complete the code snippet to install a package from NPM:
 
-```plain-text
-> npm ??? <package>
+```bash
+npm ??? <package>
 ```
 
 - install

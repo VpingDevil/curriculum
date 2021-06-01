@@ -9,6 +9,16 @@ links:
   - >-
     [47 CSS Tips &
     Tricks](http://www.instantshift.com/2010/03/15/47-css-tips-tricks-to-take-your-site-to-the-next-level/){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Vertically center text
@@ -46,7 +56,9 @@ In the following example, what is the distance between the first and the second 
   line-height: 50px;
 ```
 
+```plain-text
 ???
+```
 
 - `50px`
 - `25px`
@@ -79,7 +91,9 @@ Which of the following CSS code snippets will vertically centre a line of text?
 
 ```
 
-???
+```plain-text
+Option ???
+```
 
 - b
 - a

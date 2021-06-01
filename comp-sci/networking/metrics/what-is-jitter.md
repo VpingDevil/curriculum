@@ -5,6 +5,11 @@ category: must-know
 links:
   - >-
     [www.cisco.com](http://www.cisco.com/c/en/us/support/docs/voice/voice-quality/18902-jitter-packet-voice.html){website}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # What is jitter?
@@ -37,7 +42,9 @@ There's a pretty high chance you have experienced jitter before. Most recognisab
 
 The term **jitter** is used interchangeably with:
 
+```plain-text
 ??? ??? ???
+```
 
 - Packet
 - Delay
@@ -62,4 +69,3 @@ Common jitter causes in **TCP/IP** networks are:
 - congestion
 - improper queuing
 - configuration errors
- 

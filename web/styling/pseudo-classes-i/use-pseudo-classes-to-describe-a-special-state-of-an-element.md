@@ -13,6 +13,15 @@ links:
   - >-
     [MDN Docs on
     :hover](https://developer.mozilla.org/en-US/docs/Web/CSS/:hover){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Use pseudo-classes to describe a special state of an element
@@ -54,7 +63,9 @@ If defined in a different order (other than *LVHA*), there's a big chance they w
 
 What symbol must a pseudo-class be preceded by?
 
+```plain-text
 ???
+```
 
 - `:`
 - `;`
@@ -70,7 +81,7 @@ What symbol must a pseudo-class be preceded by?
 What is the common order of pseudo-classes used for links?
 ??? ??? ??? ???
 
-- ps:link {
-- ps:visited {
-- ps:hover {
-- ps:active {
+- `ps:link {`
+- `ps:visited {`
+- `ps:hover {`
+- `ps:active {`

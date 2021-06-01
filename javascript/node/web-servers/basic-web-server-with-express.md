@@ -1,10 +1,20 @@
 ---
 author: catalin
 type: normal
-category: how to
+category: how-to
 links:
   - '[expressjs.com](http://expressjs.com/en/starter/installing.html){website}'
 notes: This can used as the first insight on Express subtopic
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Basic web server with Express

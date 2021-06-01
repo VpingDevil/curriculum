@@ -9,9 +9,13 @@ tags:
   - borders
 links:
   - '[Rounded Border](http://www.css3.info/preview/rounded-border/){website}'
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
-# Use `border-radius` to style rounded corners of an element
+# Use border-radius to style rounded corners of an element
 
 
 ---

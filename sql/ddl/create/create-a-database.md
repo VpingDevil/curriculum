@@ -2,10 +2,19 @@
 author: SebaRaba
 type: normal
 category: must-know
-inAlgoPool: false
 tags:
   - introduction
   - workout
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Create a Database
@@ -43,15 +52,14 @@ DROP DATABASE my_first_db;
 Create a new database called `practice_qw`.
 
 ```sql
-??? ??? ???
+??? ??? ???;
 ```
 
 - CREATE
 - DATABASE
-- practice_qw;
+- practice_qw
 - TABLE
 - DROP
-- practice_qw
 
 
 ---

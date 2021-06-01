@@ -6,16 +6,24 @@ links:
   - >-
     [Python 3 Documentation -
     all](https://docs.python.org/3.3/library/functions.html#all){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
-# The `all` Built-in Function
+# The all Function
 
 
 ---
 
 ## Content
 
-The `all` function takes an iterable object and returns `True` if all the elements in the iterable object evaluate to `True`, or if the object is empty. It takes the form:
+The `all` built-in function takes an iterable object and returns `True` if all the elements in the iterable object evaluate to `True`, or if the object is empty. It takes the form:
 
 ```python
 all(iterable)
@@ -81,3 +89,4 @@ print(all([" ", 'abc', 12, 145, '']))
 
 [1:Python Truthiness]
 *Using the `bool` built in function, we can check the truthiness of any object in Python. The truthiness rules can be examined at length in the second link in the Learn More section. As a general rule, nonempty objects are True and empty ones are False. For integers, 0 is False, anything else is True. Truthiness can be a useful shortcut when performing operations on these types.*
+ 

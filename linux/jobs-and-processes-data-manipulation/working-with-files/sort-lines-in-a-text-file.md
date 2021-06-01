@@ -1,12 +1,20 @@
 ---
 author: catalin
 type: normal
-category: how to
+category: how-to
 links:
   - '[www.computerhope.com](http://www.computerhope.com/unix/usort.htm){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
-# `sort` lines in a text file
+# sort Lines in a Text File
 
 
 ---
@@ -61,8 +69,7 @@ Other flags are available such as `-c` that will only check if the file is sorte
 Sort the file `enki` in reverse and output it to `output_enki`:
 
 ```bash
-??? ??? ??? 
-    output_enki enki
+??? ??? ??? output_enki enki
 ```
 
 - `sort`

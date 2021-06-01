@@ -10,9 +10,13 @@ tags:
   - terminal
   - apt-get
   - ubuntu
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
-# Solving `BADSIG GPG` errors
+# Solving BADSIG GPG errors
 
 
 ---

@@ -2,7 +2,6 @@
 author: kapnobatai136
 type: normal
 category: must-know
-inAlgoPool: false
 tags:
   - workout
   - deep
@@ -10,9 +9,18 @@ links:
   - >-
     [More on CREATE
     TRIGGER](https://www.codeproject.com/Articles/25600/Triggers-SQL-Server){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
-# Add Trigger (2)
+# Add Trigger I
 
 
 ---
@@ -90,8 +98,8 @@ CREATE TABLE region_backup (
 
 Complete the following syntax such that the *trigger* named `cstr_2` does the following:
 
-- when deleting from the parent table the corresponding record in the child table is set to its default value
-- when updating the parent table the corresponding record in the child table is updated
+* when deleting from the parent table the corresponding record in the child table is set to its default value
+* when updating the parent table the corresponding record in the child table is updated
 
 ```sql
 CREATE TABLE region (

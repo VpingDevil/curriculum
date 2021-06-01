@@ -2,9 +2,18 @@
 author: nene
 type: normal
 category: feature
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
-# `letter-spacing` property
+# Letter-spacing property
 
 
 ---

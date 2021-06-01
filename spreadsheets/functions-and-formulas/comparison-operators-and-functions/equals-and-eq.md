@@ -1,15 +1,19 @@
-﻿---
+---
 author: Stefan-Stojanovic
-
 type: normal
-
-category: how to
+category: how-to
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 
 ---
 
-# `=` and `EQ()`
+# = & EQ()
+
 
 ---
+
 ## Content
 
 The equal comparison operator is the same as the `EQ()` function.
@@ -22,7 +26,9 @@ Both can be used to check if two values are equal to each other and return `TRUE
 
 > 💡 You can also compare different data types, but the result will always be `FALSE`. Take a look here[2] for some examples.
 
+
 ---
+
 ## Revision
 
 The `EQ()` function and `=` operator are used to compare ??? values and output ??? if they are equal and ??? if they are not.
@@ -33,7 +39,9 @@ The `EQ()` function and `=` operator are used to compare ??? values and output ?
 - two or more 
 - two or less
 
+
 ---
+
 ## Footnotes
 
 [1: Zero & Empty Cells]
@@ -43,6 +51,7 @@ If we had this table:
 | 1 | 0 |   |
 
 Then the formula:
+
 ```plain-text
 =EQ(A1, B1)
 

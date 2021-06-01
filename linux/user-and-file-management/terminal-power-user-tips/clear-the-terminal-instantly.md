@@ -10,6 +10,10 @@ tags:
   - clenup
   - workout
 notes: ''
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Clear the terminal instantly
@@ -34,12 +38,9 @@ This won't, however, reinstantiate the shell, meaning you will still be logged a
 
 ## Revision
 
-To *reload* the terminal and *clear* the previous output you would run 
-
-??? .
+To *reload* the terminal and *clear* the previous output you would run ???
 
 - reset
 - clear
 - clr
 - sudo --reload
- 

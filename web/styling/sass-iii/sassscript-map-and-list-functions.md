@@ -6,6 +6,11 @@ links:
   - >-
     [Article on List
     Functions](http://sass-lang.com/documentation/Sass/Script/Functions.html#list-functions){article}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # SassScript Map and List Functions
@@ -43,7 +48,10 @@ zip(a b c, 1 2 3, x y z)
 ## Revision
 
 What's the first item index in **SassScript**?
+
+```plain-text
 ???
+```
 
 - `1`
 - `0`

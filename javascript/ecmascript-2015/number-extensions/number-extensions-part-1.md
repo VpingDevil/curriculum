@@ -5,6 +5,16 @@ category: must-know
 links:
   - >-
     [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Number Extensions (Part 1)
@@ -85,15 +95,15 @@ What is the output of the following two calls?
 const enki = "enki";
 
 isNaN(enki);
+// ???
 Number.isNaN(enki);
 // ???
 ```
 
-- true, false
-- false, true
-- false, false
-- true, true
-
+- true
+- false
+- false
+- true
 
 ---
 
@@ -104,13 +114,16 @@ Complete the missing calls with methods such that all the statements are true:
 ```javascript
 
 Number.isNaN('enki')
+// ???
 Number.isFinite(0)
+// ???
 Number.isInteger(9.81)
 // ???
 ```
 
-- false, true, false
-- false, false, false
-- true, true, false
-- false, true, true
-- true, false, true
+- false
+- true
+- false
+- false
+- true
+- false

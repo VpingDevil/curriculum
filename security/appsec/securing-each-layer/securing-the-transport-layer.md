@@ -2,7 +2,6 @@
 author: milesflo
 type: normal
 category: must-know
-inAlgoPool: false
 links:
   - >-
     [SANS
@@ -10,6 +9,15 @@ links:
   - >-
     [Common Ports
     Cheatsheet](http://packetlife.net/media/library/23/common_ports.pdf){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Securing the Transport Layer
@@ -27,6 +35,7 @@ Vulnerabilities in the Transport Layer are usually brought about by misuse of po
 ## Practice
 
 What is one control in the Transport Layer of the OSI Model?
+
 ???
 
 - Strict use of ports as they are designed
@@ -66,4 +75,3 @@ What is one control in the Transport Layer of the OSI Model?
 - Use of a physical firewall
 - Using managed switches prevent topographical loops
 - Locks and secure enclosures
- 

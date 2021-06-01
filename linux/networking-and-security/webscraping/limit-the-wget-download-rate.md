@@ -1,7 +1,7 @@
 ---
 author: tuwidc
 type: normal
-category: how to
+category: how-to
 tags:
   - linux
   - wget
@@ -9,6 +9,10 @@ tags:
   - limit
   - terminal
   - download
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Limit the `wget` download rate
@@ -32,11 +36,10 @@ wget --limit-rate 128k
 
 ## Revision
 
-Limit the download rate for `file.iso`  to 1MB:
+Limit the download rate for `file.iso` to 1MB:
 
 ```plain-text
-??? ??? ??? 
-      http://server.com/file.iso
+??? ??? ??? http://server.com/file.iso
 ```
 
 - `wget`
@@ -45,4 +48,3 @@ Limit the download rate for `file.iso`  to 1MB:
 - `1MB`
 - `-L`
 - `ds`
- 

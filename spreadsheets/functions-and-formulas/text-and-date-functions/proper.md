@@ -1,18 +1,25 @@
 ---
 author: Stefan-Stojanovic
-
 type: normal
-
-category: how to
-
+category: how-to
 links:
   - '[PROPER](https://support.google.com/docs/answer/3094133){documentation}'
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # PROPER
 
+
 ---
+
 ## Content
 
 The `=PROPER()` function is used to re-format text.
@@ -31,7 +38,9 @@ Here are a few examples:
 
 ![proper-examples](https://img.enkipro.com/efc37542575a4c06079c8a12c1ba4def.png)
 
+
 ---
+
 ## Practice
 
 How does the `=PROPER()` function re-format text?
@@ -42,14 +51,17 @@ How does the `=PROPER()` function re-format text?
 - By capitalizing the first word of every sentence.
 - By capitalizing the first letter of every second word.
 
+
 ---
+
 ## Revision
 
 What is the output of this function?
 
 `=PROPER("The ball is red")`
-
+```plain-text
 ???
+```
 
 - The Ball Is Red
 - The ball is red

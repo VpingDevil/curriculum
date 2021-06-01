@@ -9,6 +9,10 @@ tags:
   - browser
   - get
   - null
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Terminal based browser
@@ -48,9 +52,7 @@ sudo apt-get install lynx-cur
 
 ## Revision
 
-You can browse websites from the terminal using the 
-
-??? .
+You can browse websites from the terminal using the ???
 
 - lynx package
 - browse package

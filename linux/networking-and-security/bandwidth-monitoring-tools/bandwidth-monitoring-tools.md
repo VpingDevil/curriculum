@@ -7,6 +7,10 @@ tags:
   - terminal
   - networking
   - bandwidth
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Bandwidth monitoring tools
@@ -35,10 +39,9 @@ Each can be used for specific monitoring or basic statistics.
 
 ## Revision
 
-Some tools that monitor the bandwidth are  ???
+Some tools that monitor the bandwidth are ???
 
 - tcptrack and vnstat.
 - dd and tcptrack.
 - ab and dd.
 - top and vnstat.
- 

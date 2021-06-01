@@ -7,9 +7,18 @@ links:
   - >-
     [HTML <address>
     element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/address){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
-# The `<address>` Element
+# The address Element
 
 
 ---
@@ -64,8 +73,8 @@ Which statement about the `<address>` element is not correct?
 
 - Best for postal addresses
 - Contact information of author
-- When placed in `<body>` represents information for the document
-- When placed in `<article>` represents information for that article
+- `When placed in <body> represents information for the document`
+- `When placed in <article> represents information for that article`
 - Displayed as block element
 - Default font-style is italic
 
@@ -76,8 +85,9 @@ Which statement about the `<address>` element is not correct?
 
 Which HTML element is used to contain contact information for its nearest `<article>` or `<body>` that is not related to the primary contact information of the site?
 
+```html
 ???
-
+```
 - `<address>`
 - `<contact>`
 - `<info>`

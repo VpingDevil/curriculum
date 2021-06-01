@@ -6,6 +6,16 @@ links:
   - >-
     [Official
     Documentation](https://developer.mozilla.org/en-US/docs/Web/API/FileReader/readAsText){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # FileReader.readAsText()
@@ -39,7 +49,7 @@ reader.readAsText(file, encoding);
 
 Read from a text file:
 
-```plain-text
+```js
 reader.onload = function(e) {
   let text = reader.???;
 }
@@ -62,7 +72,7 @@ reader.readAsText(file, ???);
 
 Read from a text file:
 
-```plain-text
+```js
 let reader = new FileReader();
 reader.onload = function(e) {
   let text = reader.result;
@@ -78,3 +88,4 @@ reader.onload = function(e) {
 - `readText`
 - `readFile`
 - `file`
+ 

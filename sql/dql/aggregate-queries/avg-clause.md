@@ -1,21 +1,27 @@
 ---
 author: SebaRaba
-
 type: normal
-
 category: must-know
-
 tags:
   - workout
-
 links:
   - >-
     [More on AVG
     clause](https://docs.microsoft.com/en-us/sql/t-sql/functions/aggregate-functions-transact-sql){documentation}
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # AVG Clause
+
 
 ---
 
@@ -60,8 +66,9 @@ LIMIT 5;
 Output:
 
 | Result |
-|--------|
+| ------ |
 | 55.800 |
+
 
 ---
 
@@ -115,9 +122,11 @@ FROM contest_combo;
 
 Output:
 
+```md
 | avg     |
 | ------- |
 | 72.3334 |
+```
 
 - AVG
 - second_move

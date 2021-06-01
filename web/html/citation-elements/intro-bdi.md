@@ -9,9 +9,18 @@ links:
   - >-
     [User
     Agent](https://developer.mozilla.org/en-US/docs/Glossary/user_agent){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
-# The `<bdi>` Element
+# The bdi Element
 
 
 ---
@@ -79,7 +88,9 @@ Which statement about the `<bdi>` element is correct?
 
 Which HTML element is used to isolate a span of text that might be formatted in a different direction from other text outside it in within a multi-language document - for such languages as Arabic and Hebrew?
 
+```html
 ???
+```
 
 - `<bdi>`
 - `<bdo>`

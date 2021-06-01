@@ -6,9 +6,18 @@ links:
   - >-
     [Short
     Status](http://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
-# Use `short` status to make output more compact
+# Use short status to make output more compact
 
 
 ---
@@ -48,10 +57,10 @@ M  enki.md
 
 ???
 
-- `enki.md` is modified and staged
-- `enki.md` is modified and not staged
-- `enki.md` is a new untracked file
-- `enki.md` is a new staged file
+- `enki.md is modified and staged`
+- `enki.md is modified and not staged`
+- `enki.md is a new untracked file`
+- `enki.md is a new staged file`
 
 
 ---

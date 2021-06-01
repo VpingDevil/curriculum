@@ -9,6 +9,15 @@ links:
   - >-
     [Node
     Events](https://nodesource.com/blog/understanding-the-nodejs-event-loop/){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Consuming events
@@ -81,6 +90,7 @@ system.file.???(
 ## Revision
 
 Which method is called to register a callback function to run when an event is triggered?
+
 ???
 
 - .on

@@ -8,6 +8,15 @@ tags:
   - rsa
   - pasword-less
   - ssh-copy-id
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Setting up password-free authentication

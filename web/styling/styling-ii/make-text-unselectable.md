@@ -1,7 +1,7 @@
 ---
 author: SeanWalters
 type: normal
-category: how to
+category: how-to
 tags:
   - NoSelection
 links:
@@ -9,6 +9,15 @@ links:
     [Disable Text
     Selection](http://stackoverflow.com/questions/826782/css-rule-to-disable-text-selection-highlighting){discussion}
   - '[WebKit](http://caniuse.com/#search=webkit){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Make text unselectable
@@ -47,7 +56,7 @@ Once the class is assigned to a paragraph like below, the text will no longer be
 
 Complete the method which can be used to make text in a web page unselectable:
 
-```plain-text
+```css
 .unselectable {
   ???: none;
 }
@@ -76,7 +85,7 @@ What does the following CSS code do?
 
 ???
 
-- It makes the contents of <p> unable to be selected.
-- It makes the contents of <p> able to be selected.
-- It changes the colour of <p>'s contents.
-- It automatically highlights the contents of <p>.
+- `It makes the contents of <p> unable to be selected.`
+- `It makes the contents of <p> able to be selected.`
+- `It changes the colour of <p>'s contents.`
+- `It automatically highlights the contents of <p>.`

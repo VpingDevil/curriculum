@@ -1,11 +1,21 @@
 ---
 author: rosielowther
 type: normal
-category: how to
+category: how-to
 links:
   - >-
     [Untrack A File Without Deleting
     It](https://github.com/jbranchaud/til/blob/master/git/untrack-a-file-without-deleting-it.md){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Untrack a directory/file without deleting it

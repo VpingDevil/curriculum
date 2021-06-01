@@ -6,7 +6,14 @@ tags:
   - workout
   - deep
   - obscura
-links: null
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Inversion of Control
@@ -83,3 +90,4 @@ What is the name of this dynamic?
 - un-inversion of control
 - callback hell
 - callback trust
+ 

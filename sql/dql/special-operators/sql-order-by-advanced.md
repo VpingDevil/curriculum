@@ -7,6 +7,14 @@ tags:
   - workout
 links:
   - '[More on ORDER BY](http://www.dofactory.com/sql/order-by){website}'
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Order By Advanced
@@ -55,8 +63,8 @@ The `employees` table contains data about each employee at an international comp
 
 Select both columns from the table and sort your resulting set:
 
-- **first** in descending order by the `name` column
-- **second** in ascending order by the `language_id` column
+- first in descending order by the name column
+- second in ascending order by the language_id column
 
 ```sql
 SELECT name, ???
@@ -130,12 +138,14 @@ This table shows how much experience you need to gain in order to get to level 1
 ## Footnotes
 
 [1:Employees Table]
+
 Here is the table we have used previously:
-| id  | first_name | last_name | email                   |
-| --- | ---------- | --------- | ----------------------- |
-| 1   | Karlene    | Pantone   | [kpantone0@topsy.com](mailto:kpantone0@topsy.com)     |
-| 2   | Donnamarie | Beeho     | [dbeeho1@state.tx.us](mailto:dbeeho1@state.tx.us)     |
-| 3   | Tony       | Isworth   | [tisworth2@bloglovin.com](mailto:tisworth2@bloglovin.com) |
-| 4   | Esta       | Warrier   | [ewarrier3@berkeley.edu](mailto:ewarrier3@berkeley.edu)  |
-| 5   | Immanuel   | Kippen    | [ikippen4@biglobe.ne.jp](mailto:ikippen4@biglobe.ne.jp)  |
-| 6   | Regina     | Pantone   | [regone@stratos.org](mailto:regone@stratos.org)      |
+
+| id | first_name | last_name | email                   |
+|----|------------|-----------|-------------------------|
+| 1  | Karlene    | Pantone   | kpantone0@topsy.com     |
+| 2  | Donnamarie | Beeho     | dbeeho1@state.tx.us     |
+| 3  | Tony       | Isworth   | tisworth2@bloglovin.com |
+| 4  | Esta       | Warrier   | ewarrier3@berkeley.edu  |
+| 5  | Immanuel   | Kippen    | ikippen4@biglobe.ne.jp  |
+| 6  | Regina     | Pantone   | regone@stratos.org      |

@@ -7,6 +7,14 @@ links:
     [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/API/Window/location){website}
   - >-
     [www.w3schools.com](http://www.w3schools.com/js/js_window_location.asp){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # `top.location.href`
@@ -29,7 +37,9 @@ It is useful when dealing with pages that have multiple `iframes` (e.g. map). In
 
 ## Practice
 
-Assuming that the current window has no parent, what would the following check return? ???
+Assuming that the current window has no parent, what would the following check return? 
+
+???
 
 ```javascript
 window === window.top
@@ -48,9 +58,11 @@ window === window.top
 Assume current window has no parent. What will the output of the following check be?
 
 ```javascript
-window === window.top // ???
+window === window.top 
+// ???
 ```
 
 - `true`
 - `false`
 - `error`
+ 

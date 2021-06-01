@@ -10,6 +10,10 @@ tags:
   - speed
 links:
   - '[github.com](https://github.com/sivel/speedtest-cli){website}'
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # Getting the connection speed from the terminal
@@ -48,9 +52,7 @@ Upload: 5.18 Mbit/s
 
 ## Revision
 
-A tool to test your internet connection using the terminal is 
-
-???.
+A tool to test your internet connection using the terminal is ???.
 
 - speedtest-cli
 - internetspeed-cli

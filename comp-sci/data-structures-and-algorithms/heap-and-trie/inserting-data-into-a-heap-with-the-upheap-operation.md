@@ -1,7 +1,15 @@
 ---
 author: jfarmer
 type: normal
-category: how to
+category: how-to
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Inserting Data Into a Heap With The `upheap` Operation
@@ -45,7 +53,7 @@ The tree is now a heap again!
 
 ## Practice
 
-Where will the next node be inserted in the heap?
+Where will the next node be inserted in the following heap?
 
 ```plain-text
         50
@@ -54,8 +62,8 @@ Where will the next node be inserted in the heap?
   /    \   /   \
  15    18  C    D
   A     B
-???
 ```
+???
 
 - `C`
 - `A`
@@ -83,4 +91,3 @@ In a `max-heap`, during upheap operation, the child swaps places with its parent
 
 [1: Complete heap]
 Complete means that every level of the underlying binary tree structure is filled, except possibly the last level.
- 

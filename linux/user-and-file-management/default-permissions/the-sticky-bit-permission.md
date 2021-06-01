@@ -9,10 +9,13 @@ tags:
   - sticky bit
   - deep
   - workout
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: relative
 ---
 
 # The `sticky bit` permission
-
 
 ---
 
@@ -41,14 +44,11 @@ To unset it:
 chmod -t file
 ```
 
-
 ---
 
 ## Revision
 
-The sticky bit prevents
-
-???.
+The sticky bit prevents ???.
 
 - other users from deleting the file
 - the owner of the file from deleting the file

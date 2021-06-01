@@ -1,10 +1,20 @@
 ---
 author: mihaiberq
 type: normal
-category: how to
+category: how-to
 tags:
   - introduction
   - workout
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Tests
@@ -79,23 +89,22 @@ If you have a `test` script defined in your `package.json`, what will be the eas
 
 ## Revision
 
-Complete the following *package.json* file with code that would make `npm run test` lint *index.js* file:
+Complete the following `package.json` file with code that would make `npm run test` lint *index.js* file:
 
 ```javascript
 {
   // ...
-  ???: {
-    ???: "jslint ???"
+  "???": {
+    "???": "jslint ???"
   }
 }
 ```
 
-- "scripts"
-- "test"
-- index.js
 - scripts
 - test
+- index.js
 - script
+- tests
 
 
 ---

@@ -6,6 +6,16 @@ links:
   - >-
     [Limiting Log
     Output](http://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Limiting log output by time
@@ -51,14 +61,15 @@ git ???
 
 ## Revision
 
-Show the commits made today :
+Show the commits made today:
 
 ```bash
-git ??? ???
+git ??? ???="???"
 ```
 
 - `log`
-- `--since="yesterday"`
-- `--pretty`
 - `--since`
+- `yesterday`
+- `--pretty`
+- `--since.yesterday`
 - `"yesterday"`

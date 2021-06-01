@@ -9,6 +9,15 @@ links:
   - >-
     [MDN
     Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Symbol
@@ -118,3 +127,4 @@ const sym = Symbol.new("enki");
 - a
 - b
 - d
+ 

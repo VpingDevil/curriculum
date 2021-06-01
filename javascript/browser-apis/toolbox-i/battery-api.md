@@ -6,6 +6,16 @@ links:
   - '[davidwalsh.name](https://davidwalsh.name/javascript-battery-api){website}'
   - >-
     [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/API/Battery_Status_API){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Battery API
@@ -90,3 +100,4 @@ Using the battery API, fill in the missing gaps of the following code snippet su
 - now
 - run
 - start
+ 

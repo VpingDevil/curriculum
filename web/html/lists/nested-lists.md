@@ -1,13 +1,9 @@
 ---
 author: Stefan-Stojanovic
-
 type: normal
-
 category: must-know
-
 tags:
   - introduction
-
 links:
   - >-
     [HTML <ul>
@@ -15,10 +11,20 @@ links:
   - >-
     [HTML <ol>
     Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol){documentation}
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
 # Nested Lists
+
 
 ---
 
@@ -110,6 +116,7 @@ In the example above, the ordered list element `<ol>` is used as the main list b
 
 The unordered list elements don't need to be gathered in any specific order, so this organization makes the most sense.
 
+
 ---
 
 ## Practice
@@ -129,9 +136,11 @@ Complete the HTML code to create an unordered list within an ordered list.
 </A>
 ```
 
+```plain-text
 A: ???
 B: ???
 C: ???
+```
 
 - `ol`
 - `li`
@@ -140,6 +149,7 @@ C: ???
 - `il`
 - `bl`
 - `ll`
+
 
 ---
 
@@ -188,10 +198,12 @@ Option #2:
 </ol>
 ```
 
-???
+```plain-text
+Option #???
+```
 
-- Option #1
-- Option #2
+- 1
+- 2
 
 
 ---

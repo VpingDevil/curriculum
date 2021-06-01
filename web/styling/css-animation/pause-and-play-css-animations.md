@@ -1,7 +1,7 @@
 ---
 author: Mathieu
 type: normal
-category: how to
+category: how-to
 links:
   - >-
     [Tutorial on
@@ -9,6 +9,15 @@ links:
   - >-
     [12 Little Known CSS
     Tips](http://www.sitepoint.com/12-little-known-css-facts/){article}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Pause and play CSS animations

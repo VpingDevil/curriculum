@@ -2,6 +2,14 @@
 author: SebaRaba
 type: normal
 category: must-know
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Successful status codes
@@ -33,9 +41,7 @@ Other status codes indicating the **success** of a request are:
 
 ## Practice
 
-A `200` response to a `GET` request contains
-
-??? as payload.
+A `200` response to a `GET` request contains ??? as payload.
 
 - the resource requested
 - the new entity created
@@ -64,4 +70,3 @@ What is the format of status codes indicating the **success** of a request?
 Applications that are acting on behalf of the user. One category of user agents includes web browsers.
 
 A user agent sends information to the server about the web browser, operating system and device (whether the desktop or mobile version of the website should be fetched).
- 

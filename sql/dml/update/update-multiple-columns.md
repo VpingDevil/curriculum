@@ -1,17 +1,23 @@
 ---
 author: kapnobatai136
-
 type: normal
-
 category: must-know
-
 tags:
   - update
   - syntax
-
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # Updating Multiple Columns
+
 
 ---
 
@@ -37,7 +43,7 @@ WHERE
 Take a look at the following `managers` table:
 
 | id | name              | branch   | branch_id |
-|----|-------------------|----------|-----------|
+| -- | ----------------- | -------- | --------- |
 | 1  | Robert California | New York | 13        |
 | 2  | Michael Scott     | Scranton | 24        |
 
@@ -57,15 +63,16 @@ WHERE
 And this is the resulting table:
 
 | id | name              | branch   | branch_id |
-|----|-------------------|----------|-----------|
+| -- | ----------------- | -------- | --------- |
 | 1  | Robert California | New York | 13        |
 | 2  | Michael Scott     | Boulder  | 17        |
+
 
 ---
 
 ## Practice
 
-Update the student's `math_grade` to `9` and `physics_grade` to `8.5`:
+Update the student's (`id = 21`) `math_grade` to `9` and `physics_grade` to `8.5`:
 
 ```sql
 ??? 
@@ -87,6 +94,7 @@ Update the student's `math_grade` to `9` and `physics_grade` to `8.5`:
 - UPGRADE
 - EQUALS
 - SELECT 
+
 
 ---
 

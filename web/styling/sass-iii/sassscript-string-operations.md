@@ -6,6 +6,15 @@ links:
   - >-
     [Article on String
     Operations](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#string_operations){article}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
 # SassScript String Operations

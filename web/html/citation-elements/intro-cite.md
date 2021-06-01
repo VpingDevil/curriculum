@@ -6,9 +6,18 @@ links:
   - >-
     [HTML <cite>
     Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/cite){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
-# The `<cite>` Element
+# The cite Element
 
 
 ---
@@ -65,7 +74,7 @@ Which statement about the `<cite>` element is not correct?
 
 ## Revision
 
-What HTML element is best to use in this example?
+Given the code:
 
 ```html
 <p>
@@ -83,7 +92,11 @@ and Technicolor.
 </p>
 ```
 
+What HTML element is best to use in this example?
+
+```html
 tag = ???
+```
 
 - `<cite>`
 - `<quote>`

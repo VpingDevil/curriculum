@@ -6,9 +6,19 @@ links:
   - >-
     [Python
     slice()](https://www.programiz.com/python-programming/methods/built-in/slice){website}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
-# The `slice` Built-in Function
+# The slice Function
 
 
 ---
@@ -139,3 +149,4 @@ print(a[::-1])
 
 [1:Negative Numbers]
 *Notice how when negative numbers are given as arguments to `slice` its behavior can be made to be analogous to the `reversed` built-in function. Depending on the context, one function may be more suitable than the other in terms of efficiency, legibility or modularity.*
+ 

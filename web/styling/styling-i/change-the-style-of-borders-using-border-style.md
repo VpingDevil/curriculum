@@ -1,7 +1,7 @@
 ---
 author: priyankinirmal
 type: normal
-category: how to
+category: how-to
 tags:
   - css
   - border
@@ -10,9 +10,13 @@ links:
   - >-
     [MDN Docs on Border
     Style](https://developer.mozilla.org/en-US/docs/Web/CSS/border-style){website}
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
 ---
 
-# Change the style of borders using `border-style`
+# Change the style of borders using border-style
 
 
 ---

@@ -24,9 +24,18 @@ links:
   - >-
     [MDN: <th>
     Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th){documentation}
+practiceQuestion:
+  formats:
+    - fill-in-the-gap
+  context: standalone
+revisionQuestion:
+  formats:
+    - fill-in-the-gap
+    - type-in-the-gap
+  context: standalone
 ---
 
-# The `<th>` Element
+# The th Element
 
 
 ---
@@ -160,7 +169,9 @@ tag4 = ???
 
 Which HTML element creates the header of a group of table cells within a table?
 
-???
+```html
+<???>
+```
 
 - th
 - table
